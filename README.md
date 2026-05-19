@@ -1,27 +1,34 @@
-# 💫 About Me:
-I am a Fullstack .NET Developer with experience in building web-based enterprise applications. I work primarily with ASP.NET Core, C#, SQL Server, and modern front-end technologies such as HTML, CSS, and JavaScript.<br><br>I have hands-on experience in designing database structures, optimizing queries, and developing RESTful APIs. On the front end, I focus on building clean, user-friendly interfaces with maintainable and scalable code.<br><br>I am detail-oriented, solution-driven, and always eager to improve my technical skills. My goal is to deliver efficient, stable, and scalable software solutions that bring real business value.
+# Hi 👋, I'm Trần An Phúc
 
+### Web Developer
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/anphuctran05)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=TranAnPhuc&label=Profile views&color=0e75b6&style=flat" alt="TranAnPhuc" /> </p>
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=TranAnPhuc&theme=cobalt2&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=TranAnPhuc&theme=cobalt2&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=TranAnPhuc&theme=cobalt2&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=TranAnPhuc" alt="TranAnPhuc" /></a> </p>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=TranAnPhuc&theme=shadow_blue&no-frame=false&no-bg=false&margin-w=4)
+- 🔭 I'm currently working on **Fullstack Web Developer**
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark)
+- 🌱 I'm currently learning **ASP.NET CORE WEB API and ReactJS**
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=TranAnPhuc&limit=5&theme=dark&combine_all_yearly_contributions=true)
+- 🤝 I'm looking for help with **Learn about software development thinking**
 
----
-[![](https://visitcount.itsvg.in/api?id=TranAnPhuc&icon=2&color=9)](https://visitcount.itsvg.in)
+- 💬 Ask me about **ASP.NET CORE, HTML, CSS, JS**
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+- 📫 How to reach me **anphuctran24@gmail.com**
+
+- ⚡ Fun fact **I am a quiet person and not particularly intelligent.**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://github.com/TranAnPhuc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="TranAnPhuc" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/bootstrap" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/csharp" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cs" alt="csharp" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/dotnet" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=dotnet" alt="dotnet" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mssql" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="mssql" width="40" height="40"/> </a></p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=TranAnPhuc&show_icons=true&locale=en&layout=compact" alt="TranAnPhuc" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&locale=en" alt="TranAnPhuc" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=TranAnPhuc&" alt="TranAnPhuc" /></p>
+
