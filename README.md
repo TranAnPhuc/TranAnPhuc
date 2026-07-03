@@ -22,23 +22,47 @@ I am a Fullstack Web Developer specializing in building enterprise applications 
 
 ### Backend & Database
 <p align="left">
-  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=for-the-badge&logo=.net" alt="ASP.NET Core" />
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver" alt="SQL Server" />
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/csharp.svg" width="40" height="40" alt="C#" />
+  </a>
+  <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="40" height="40" alt=".NET Core" />
+  </a>
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
+    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" height="40" alt="SQL Server" />
+  </a>
 </p>
 
 ### Frontend
 <p align="left">
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css" alt="TailwindCSS" />
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/react.svg" width="40" height="40" alt="React" />
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/typescript.svg" width="40" height="40" alt="TypeScript" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/javascript.svg" width="40" height="40" alt="JavaScript" />
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/tailwindcss.svg" width="40" height="40" alt="TailwindCSS" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/html5.svg" width="40" height="40" alt="HTML5" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/css3.svg" width="40" height="40" alt="CSS3" />
+  </a>
 </p>
 
 ### DevOps & Tools
 <p align="left">
-  <img src="https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git" alt="Git" />
-  <img src="https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github" alt="GitHub" />
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/profileme-dev/master/public/acticons/git.svg" width="40" height="40" alt="Git" />
+  </a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40" height="40" alt="GitHub" />
+  </a>
 </p>
 
 ---
