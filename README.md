@@ -71,8 +71,6 @@ Currently, I develop ERP/PMS systems, focusing on scalable backend architectures
   />
 </p>
 
-> 📌 My pinned repositories below showcase the projects I'm currently most proud of.
-
 ---
 
 # 🎯 2026 Goals
@@ -95,13 +93,8 @@ Currently, I develop ERP/PMS systems, focusing on scalable backend architectures
 </a>
 
 <!-- Thay email của bạn vào đây -->
-<a href="mailto:your-email@gmail.com">
+<a href="mailto:anphuctran24@gmail.com">
   <img src="https://skillicons.dev/icons?i=gmail" />
-</a>
-
-<!-- Thay LinkedIn của bạn vào đây -->
-<a href="https://www.linkedin.com/in/your-linkedin">
-  <img src="https://skillicons.dev/icons?i=linkedin" />
 </a>
 
 </p>
