@@ -1,24 +1,24 @@
-# 👋 Xin chào, tôi là Trần An Phúc 
+# 👋 Hi, I'm An Phuc Tran
 ### Fullstack Web Developer (.NET & React)
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38B2AC&width=435&lines=Fullstack+Web+Developer;ASP.NET+Core+%26+ReactTS;Enterprise+System+Developer" alt="Typing SVG" />
 </p>
 
-Tôi là một Lập trình viên Fullstack tập trung vào xây dựng các ứng dụng doanh nghiệp và phần mềm quản lý quy trình nghiệp vụ. Hiện tại, tôi đang làm việc trực tiếp với các hệ thống ERP/PMS, đồng thời liên tục nâng cao tư duy kiến trúc phần mềm hiện đại.
+I am a Fullstack Web Developer specializing in building enterprise applications and business process automation systems. Currently, I work directly with ERP/PMS systems while continuously deepening my knowledge of modern software architecture.
 
 ---
 
-## 🚀 Định hướng & Mục tiêu chuyên môn
+## 🚀 Professional Focus & Goals
 
-- 💼 **Vị trí hiện tại:** Fullstack Web Developer (ERP/PMS Systems).
-- 🌱 **Lộ trình nâng cao:** Chuyên sâu **ASP.NET Core Web API**, **React TypeScript**, và **Clean Architecture**.
-- 💡 **Mối quan tâm:** Kiến trúc phần mềm (Software Architecture), Thiết kế hệ thống (System Design), và Tự động hóa quy trình doanh nghiệp (Business Process Automation).
-- 🎯 **Mục tiêu nghề nghiệp:** Trở thành Senior Fullstack .NET Developer, làm chủ các hệ thống quy mô lớn.
+- 💼 **Current Role:** Fullstack Web Developer (ERP/PMS Systems).
+- 🌱 **Advanced Roadmap:** Deep diving into **ASP.NET Core Web API**, **React TypeScript**, and **Clean Architecture**.
+- 💡 **Interests:** Software Architecture, System Design, and Business Process Automation.
+- 🎯 **Career Goal:** Evolving into a Senior Fullstack .NET Developer capable of managing large-scale enterprise systems.
 
 ---
 
-## 💻 Công nghệ và Công cụ sử dụng
+## 💻 Tech Stack & Tools
 
 ### Backend & Database
 <p align="left">
@@ -35,7 +35,7 @@ Tôi là một Lập trình viên Fullstack tập trung vào xây dựng các �
   <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css" alt="TailwindCSS" />
 </p>
 
-### Devops & Tools
+### DevOps & Tools
 <p align="left">
   <img src="https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git" alt="Git" />
   <img src="https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github" alt="GitHub" />
@@ -43,31 +43,31 @@ Tôi là một Lập trình viên Fullstack tập trung vào xây dựng các �
 
 ---
 
-## 📊 Thống kê hoạt động GitHub
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=TranAnPhuc&theme=cobalt2&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=TranAnPhuc&theme=cobalt2&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&theme=cobalt2&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TranAnPhuc&theme=cobalt2&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=TranAnPhuc&theme=cobalt2&hide_border=true&layout=compact" width="60%" />
-</p>
-
----
-
-## 🏆 Thành tích đóng góp
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TranAnPhuc&theme=cobalt2&no-frame=true&margin-w=5" alt="GitHub Trophies" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TranAnPhuc&theme=cobalt2&hide_border=true&layout=compact" width="60%" />
 </p>
 
 ---
 
-## 📈 Trọng tâm nghiên cứu hiện tại
+## 🏆 GitHub Trophies
 
-* **Kiến trúc ứng dụng:** Áp dụng mô hình Clean Architecture và Domain-Driven Design (DDD) vào dự án .NET.
-* **Tối ưu hóa dữ liệu:** Thiết kế index, tối ưu câu lệnh truy vấn và xử lý giao dịch hiệu năng cao trên SQL Server.
-* **Chuẩn hóa API:** Xây dựng hệ thống RESTful API bảo mật, dễ mở rộng và tích hợp mượt mà với Front-end ReactTS.
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=TranAnPhuc&theme=cobalt&column=7&margin-w=5&no-bg=true&no-frame=true" alt="GitHub Trophies" />
+</p>
+
+---
+
+## 📈 Current Research & Development
+
+* **Application Architecture:** Implementing Clean Architecture patterns and Domain-Driven Design (DDD) principles in .NET ecosystems.
+* **Database Optimization:** Index design, query tuning, and high-concurrency transaction handling in SQL Server.
+* **API Standardization:** Engineering secure, scalable RESTful APIs that seamlessly integrate with ReactTS frontends.
 
 > "Keep learning. Keep building. Keep improving."
