@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Tran An Phuc 
+# 👋 Hi, I'm An Phuc Tran
 
 <h3 align="center">Fullstack Web Developer • ASP.NET Core • React • SQL Server</h3>
 
@@ -12,11 +12,11 @@
 
 I'm a Fullstack Web Developer passionate about building enterprise applications and solving real-world business problems.
 
-Currently, I work on ERP/PMS systems, focusing on scalable backend architectures, intuitive frontend experiences, and database optimization.
+Currently, I develop ERP/PMS systems, focusing on scalable backend architectures, intuitive frontend experiences, and SQL Server optimization.
 
 - 💼 Fullstack Web Developer
-- 🌱 Learning **React**, **TypeScript**, **ASP.NET Core Web API**, **Clean Architecture**
-- 💡 Interested in **Software Architecture**, **System Design**, **Enterprise Applications**
+- 🌱 Learning **React**, **TypeScript**, **ASP.NET Core Web API**, **Dapper**, and **Clean Architecture**
+- 💡 Interested in **Software Architecture**, **System Design**, and **Enterprise Applications**
 - 🎯 Goal: Become a Senior Fullstack .NET Developer
 - 📍 Vietnam
 
@@ -27,26 +27,25 @@ Currently, I work on ERP/PMS systems, focusing on scalable backend architectures
 ### Backend
 
 <p>
-<img src="https://skillicons.dev/icons?i=cs,dotnet" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet" />
 </p>
 
 ### Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind" />
+  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind" />
 </p>
 
 ### Database
 
 <p>
-<img src="https://skillicons.dev/icons?i=mysql" />
-<img src="https://go-skill-icons.vercel.app/api/icons?i=mssql" height="48"/>
+  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
 </p>
 
 ### Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,postman" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
 </p>
 
 ---
@@ -56,38 +55,23 @@ Currently, I work on ERP/PMS systems, focusing on scalable backend architectures
 - ASP.NET Core Web API
 - React + TypeScript
 - Clean Architecture
-- Entity Framework Core
+- Dapper
 - SQL Server Performance Tuning
 - RESTful API Design
-- Docker (Basic)
-
----
-
-# 📂 Featured Projects
-
-| Project | Description | Tech |
-|----------|-------------|------|
-| 🏭 PMS | Production Management System | ASP.NET Core, SQL Server |
-| ✅ QA/QC | Quality Management System | ASP.NET Core |
-| 📦 ERP Modules | Enterprise Business Modules | React + Web API |
-
-> More projects are coming soon...
+- Software Architecture & Design Patterns
 
 ---
 
 # 📊 GitHub Analytics
 
 <p align="center">
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=TranAnPhuc&theme=tokyonight&hide_border=true"/>
-
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=TranAnPhuc&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
+  />
 </p>
 
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TranAnPhuc&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
+> 📌 My pinned repositories below showcase the projects I'm currently most proud of.
 
 ---
 
@@ -95,7 +79,7 @@ Currently, I work on ERP/PMS systems, focusing on scalable backend architectures
 
 - ✅ Master ASP.NET Core
 - ✅ Master React + TypeScript
-- ✅ Build high-quality Enterprise Applications
+- ✅ Build High-Quality Enterprise Applications
 - ✅ Learn Microservices Architecture
 - ✅ Improve SQL Server Performance Optimization
 - ✅ Become a Senior Fullstack .NET Developer
@@ -107,15 +91,17 @@ Currently, I work on ERP/PMS systems, focusing on scalable backend architectures
 <p align="left">
 
 <a href="https://github.com/TranAnPhuc">
-<img src="https://skillicons.dev/icons?i=github"/>
+  <img src="https://skillicons.dev/icons?i=github" />
 </a>
 
+<!-- Thay email của bạn vào đây -->
 <a href="mailto:your-email@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
+  <img src="https://skillicons.dev/icons?i=gmail" />
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
+<!-- Thay LinkedIn của bạn vào đây -->
+<a href="https://www.linkedin.com/in/your-linkedin">
+  <img src="https://skillicons.dev/icons?i=linkedin" />
 </a>
 
 </p>
@@ -126,10 +112,7 @@ Currently, I work on ERP/PMS systems, focusing on scalable backend architectures
 
 ### 💬 Favorite Quote
 
-*"First, solve the problem. Then, write the code."*  
-— John Johnson
-
----
+> *"First, solve the problem. Then, write the code."* — John Johnson
 
 ⭐ Thanks for visiting my profile!
 
