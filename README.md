@@ -146,11 +146,15 @@
 
 <table>
 <tr>
+
 <td width="50%">
 
 ### 📈 Activity Overview
 
-<img src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" width="100%" />
+<img
+  src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800"
+  width="100%"
+/>
 
 </td>
 <td width="50%">
