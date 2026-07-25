@@ -1,101 +1,84 @@
 <div align="center">
 
-# `TRAN AN PHUC // ENGINEERING OS`
-
-### `SOFTWARE ENGINEER • SYSTEM BUILDER • PROBLEM SOLVER`
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=2DD4BF&center=true&vCenter=true&width=850&lines=%3E+Booting+TranAnPhuc.OS...;%3E+Designing+Enterprise+Systems...;%3E+Optimizing+Database+Performance...;%3E+Automating+Business+Processes...;%3E+Building+Systems+That+Survive+Production..." alt="Typing SVG" />
+<!-- HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:0f172a&height=220§ion=header&text=TRAN%20AN%20PHUC&fontSize=48&fontColor=00f0ff&animation=twinkling&desc=Fullstack%20Engineer%20%7C%20Enterprise%20Automation&descSize=18&descAlignY=70&descAlign=50" width="100%" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00ff9d?style=for-the-badge&logo=linux&logoColor=white" />
-<img src="https://img.shields.io/badge/MODE-BUILDING-00d9ff?style=for-the-badge" />
-<img src="https://img.shields.io/badge/STATUS-ALWAYS_LEARNING-bd00ff?style=for-the-badge" />
+<!-- ASCII ART PORTRAIT -->
+<pre>
+ ░░░░░░░░░░░░░░░░░░░░▒▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓███▓▓▓▓▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░░░░░░╦▓▓▓█▓▓▓▓▓▓▓▓▓█▓▓▓▓▓████████████▓▓▓▓▒▒▒░░░░░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░░░░▒▒▓▓▓█▓█▓██▓█▓▓▓▓▓█▓▓████████████████▓▓▓▒▒░░░░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░░▒▒▒╫▓██████████▓▓██████████████████████████▄▒▒░░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░▒▒▒╫▓████████████████████████████████████████▓▒░░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░▒░▒@▒█████████████████████████████████████████▒╩µ░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░▒▒▒▓█████████████████████████████████████████▌░▐H░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░▒╫╣███████████████████████████████████████████µ\M░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░(░╫█████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░▒▀▓███████████████████████████████████████████▀░░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░▒╫▌█████████████████▀████████████▓████████████▒▒░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░░▒▌█████████████████▓█████████████████████████▀▒░░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░░▒║╫████▌██████████▓▓███████████████████▀▒▒▄▓▌▒▓µ░░░░░░░░░░░░░░░░░░
+ ░░░░░░░░░░░░░░░╠╫▀████▓█████████▓████▓████▒▓███▓▒▓██▓▓▒██▓▒▒▒▒▒▒▒▒╦╦░"µ░░░░░░░░░
+ ░░░░░░░░░░░░░░░"░░▐▓█████████▀▀▀▓▒▒▒▒▓████▓▄▒▓▓▓▓▓▓███▒▒╫▒▒▓▒▒╫▓▒▒▒▒▒▒▒░░░░░░░░░
+ ░░░░░░░░░░░░░░░░░░░²███████▌▓▄╫╫╫╫▒D@╫▓▓▓██╫▒▒▒▒╫▓█▓▌█▓╫╫▒▒▒▒▒▒▒▒▒╫╫▒▒▒µ░░░░░░░░
+ ░░░░░░░░░░░░░░░░░░░░▒░▀█████▀▒╫╫▒▒▒╫╫▒▓▒╫╫╫▓▄╫╫╫▓▓▓▓▀╫░░▓▓▒▒▒▒╫▒▒▒▒╫╫▒▒▒µ░░░░░░░
+ ░░░░░░░░░░░░░░░░░░░░░░┴▀Ñ▀██▄Ä▒╫╫╫╫▒▒▒▒▒▒▒╫▒▒▒▒▒▒▀╫▒░░░░░▒╫▒▒╫▒▒▒▓▓╫▓▒▒▒╫µ░░░░░░
+ ░░░░░░░░░░░░░░░░░░░░░░░░░H▀▀▓▄x╨Ñ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▓H░░░░░░░▐╫▒╫╫▒▒▒▒▓╫▓▒▒▒▒╫░░░░░░
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓▒µ▒╫▒▒▒▒▒▒▒▒▒▒▒▓█▀▒░░░░░░░░░░╩╫▒▒▒▒▒▒╫▓▒▒▒▒▒K▄µ▄µ░
+ ░░░░░░░░░░░░░░░░░░░░░░░░ ░░░,╥▄▌`╫╫╫▓╫▒▒▒▒▒▓▌▒▓█▓▄░░░░░░░░░░░░╩╩╫▒╫╫╫▓▒▒▒▒▒╫▓H█▌
+ ░░░░░░░░░░░░░░░░░░░░░░░░░  j█▓▀▓  ╫╫╫▓▓╫▓▓▓▓▒▒▓▓██░░░░░░░░░░░░░░░░░╩▓▓▓▒▓▓▒╫▓▒╫█
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░ ▓╫▓▓▓▓▓K╫▓▓▓▓▓▓▓▓▓▓████▄▄░░░▒▒▒░░░░░░░░░░░▓╫▓╫╫▓╫▀╫▓█
+ ░░░░░░░░░░░░░░░░░░░░░░░░░,▄▓▓▓▓██████▓▓▓▓█████████████▓▓▄▒▒▒▒▒▒▒░░░░░1▓▓▓▓╫▓╫╫▓█
+</pre>
+
+<!-- TYPING EFFECT -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00F0FF¢er=true&vCenter=true&width=600&lines=%3E+Automating+Business+Processes...;%3E+Architecting+Scalable+Web+APIs...;%3E+Building+Modern+React+%2B+TS+Frontends...;%3E+Optimizing+SQL+Server+Databases..." alt="Typing SVG" />
+</a>
+
+<br/><br/>
+
+<!-- QUICK BADGES -->
+<img src="https://img.shields.io/badge/ROLE-FULLSTACK_ENGINEER-00f0ff?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/FOCUS-PROCESS_AUTOMATION-ff0055?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/LOCATION-VIETNAM-7000ff?style=for-the-badge&logoColor=white" />
 
 </div>
 
 ---
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                         TRAN AN PHUC // ENGINEERING OS                       ║
-║                              VERSION 2026.07                                 ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   USER        : TRAN AN PHUC                                                 ║
-║   ROLE        : SOFTWARE ENGINEER                                            ║
-║   SPECIALTY   : ENTERPRISE SYSTEMS                                           ║
-║   LOCATION    : VIETNAM                                                      ║
-║   STATUS      : ONLINE ●                                                      ║
-║                                                                              ║
-║   CORE MISSION                                                               ║
-║   ────────────────────────────────────────────────────────────────────────   ║
-║   Transform complex business processes into scalable, maintainable           ║
-║   and high-performance software systems.                                     ║
-║                                                                              ║
-║   [████████████████████████████████████████████████████████] 100%            ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-```text
-> initializing TranAnPhuc.OS
-> loading software architecture.............. OK
-> loading enterprise automation.............. OK
-> loading backend engineering................. OK
-> loading database optimization.............. OK
-> loading frontend ecosystem.................. OK
-> loading curiosity........................... OK
->
-> system ready.
-```
-
----
-
-## `01 // ENGINEERING IDENTITY`
+## ⚡ System Status // About Me
 
 <table>
 <tr>
-<td width="55%" valign="top">
-
-### `WHO AM I?`
-
-I am a Software Engineer focused on building **enterprise software systems**, automating complex business workflows, and improving the performance and maintainability of production applications.
-
-I enjoy working at the intersection of:
-
-- 🧠 **Software Architecture**
-- ⚙️ **Backend Engineering**
-- 🗄️ **Database Performance**
-- 🔄 **Business Process Automation**
-- 🖥️ **Modern Frontend Systems**
-
-My goal is simple:
-
-> **Understand the real problem. Design the right system. Build software that creates measurable value.**
-
-</td>
-
-<td width="45%" align="center">
+<td width="60%" valign="top">
 
 ```text
-┌───────────────────────────────┐
-│       ENGINEER PROFILE        │
-├───────────────────────────────┤
-│                               │
-│  CLASS    System Builder      │
-│  LEVEL    Always Learning     │
-│  DOMAIN   Enterprise Software │
-│                               │
-│  FOCUS                         │
-│  > Architecture               │
-│  > Automation                 │
-│  > Performance                │
-│  > Reliability                │
-│                               │
-│  STATUS   ● ONLINE            │
-│                               │
-└───────────────────────────────┘
+> USER       : TRAN AN PHUC
+> ROLE       : Fullstack Software Engineer
+> MAIN STACK : ASP.NET Core • React • TypeScript • SQL Server
+> MISSION    : Digitizing manual business processes into modern enterprise platforms.
+```
+
+- 💡 **Định hướng:** Chuyên sâu tối ưu hóa và tự động hóa quy trình nghiệp vụ cho doanh nghiệp.
+- 🏗️ **Xây dựng:** Thiết kế kiến trúc RESTful Web API hiệu năng cao kết hợp giao diện người dùng tối giản, mượt mà.
+- 🗄️ **Xử lý dữ liệu:** Tối ưu hóa truy vấn cơ sở dữ liệu SQL Server, thiết kế luồng dữ liệu chuẩn hóa.
+
+</td>
+<td width="40%" align="center" valign="middle">
+
+```text
+╔═══════════════════════════╗
+║    SYSTEM TELEMETRY       ║
+╠═══════════════════════════╣
+║ Backend    : [████████]   ║
+║ Frontend   : [███████░]   ║
+║ Database   : [████████]   ║
+║ Automation : [████████]   ║
+║ Status     : ACTIVE ●     ║
+╚═══════════════════════════╝
 ```
 
 </td>
@@ -104,323 +87,74 @@ My goal is simple:
 
 ---
 
-## `02 // ENGINEERING PHILOSOPHY`
+## 🛠 Tech Stack Matrix
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                         ENGINEERING PHILOSOPHY                               ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║  01. Understand the problem before writing the solution.                    ║
-║                                                                              ║
-║  02. Reduce complexity before adding abstraction.                            ║
-║                                                                              ║
-║  03. Optimize the database before blaming the API.                           ║
-║                                                                              ║
-║  04. Build systems that solve real business problems.                        ║
-║                                                                              ║
-║  05. Prefer simple solutions that can survive change.                        ║
-║                                                                              ║
-║  06. Code is temporary. Architecture has consequences.                       ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-> **"First, solve the problem. Then, write the code."**
-
----
-
-## `03 // MISSION CONTROL`
-
-```text
-                              ┌──────────────────┐
-                              │                  │
-                              │    FRONTEND      │
-                              │                  │
-                              │ React + TypeScript│
-                              │                  │
-                              └────────┬─────────┘
-                                       │
-                                       ▼
-┌──────────────────┐          ┌──────────────────┐          ┌──────────────────┐
-│                  │          │                  │          │                  │
-│    DATABASE      │◄────────►│    API CORE      │◄────────►│    WORKFLOW      │
-│                  │          │                  │          │                  │
-│ SQL Server       │          │ ASP.NET Core     │          │ Process Automation│
-│ PostgreSQL       │          │ C# / Dapper     │          │ BPM / Integration │
-│                  │          │                  │          │                  │
-└──────────────────┘          └────────┬─────────┘          └──────────────────┘
-                                       │
-                                       ▼
-                              ┌──────────────────┐
-                              │                  │
-                              │    ENTERPRISE    │
-                              │     SYSTEMS      │
-                              │                  │
-                              │  Digital Workflows│
-                              │  Business Tools   │
-                              │                  │
-                              └──────────────────┘
-```
-
-### `CURRENT SYSTEM STATUS`
-
-| SYSTEM | STATUS | CORE TECHNOLOGY |
-| :--- | :---: | :--- |
-| Enterprise APIs | 🟢 ONLINE | ASP.NET Core |
-| Business Automation | 🟢 ACTIVE | Workflow / BPM |
-| Data Layer | 🟢 OPTIMIZED | SQL Server / Dapper |
-| Frontend Systems | 🟢 BUILDING | React / TypeScript |
-| Software Architecture | 🟢 EVOLVING | Clean Architecture |
-| Distributed Systems | 🟡 LOADING | RabbitMQ / Redis |
+<table>
+  <tr>
+    <td align="center" width="25%"><b>Backend</b></td>
+    <td align="center" width="25%"><b>Frontend</b></td>
+    <td align="center" width="25%"><b>Database</b></td>
+    <td align="center" width="25%"><b>Tools & Environment</b></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/ASP.NET_Web_API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/Dapper-000000?style=for-the-badge&logo=nuget&logoColor=white"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/><br/>
+      <img src="https://img.shields.io/badge/HTML5/CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/><br/>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## `04 // TECHNOLOGY MATRIX`
-
-### `BACKEND`
-
-<p>
-<img src="https://skillicons.dev/icons?i=cs,dotnet" />
-</p>
-
-```text
-C#                         ████████████████████  EXPERTISE IN PROGRESS
-ASP.NET Core               █████████████████░░░  CORE STACK
-RESTful APIs               █████████████████░░░  PRODUCTION
-Dapper                     ████████████████░░░░  PRODUCTION
-Entity Framework Core      ███████████████░░░░░  PRODUCTION
-Clean Architecture        ████████████████░░░░  ACTIVE
-```
-
----
-
-### `FRONTEND`
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind" />
-</p>
-
-```text
-React                      ███████████████░░░░░  BUILDING
-TypeScript                 ███████████████░░░░░  BUILDING
-JavaScript                 █████████████████░░░  PRODUCTION
-HTML / CSS                 █████████████████░░░  PRODUCTION
-Tailwind CSS               ████████████░░░░░░░░  EXPLORING
-```
-
----
-
-### `DATABASE & DATA`
-
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql" />
-</p>
-
-```text
-SQL Server                 ███████████████████░  CORE DATABASE
-PostgreSQL                 ███████████████░░░░░  ACTIVE
-MySQL / MariaDB            █████████████░░░░░░░  ACTIVE
-Dapper                     █████████████████░░░  PERFORMANCE FOCUSED
-Query Optimization         ██████████████████░░  ADVANCED
-Execution Plans            █████████████████░░░  ADVANCED
-Index Optimization         █████████████████░░░  ADVANCED
-```
-
----
-
-### `TOOLS & INFRASTRUCTURE`
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,docker,linux,vscode,visualstudio,github" />
-</p>
-
-```text
-Git                        ████████████████████  DAILY DRIVER
-Docker                     █████████████░░░░░░░  BUILDING
-Linux                      ███████████████░░░░░  DAILY ENVIRONMENT
-Visual Studio              █████████████████░░░  DAILY DRIVER
-VS Code                    ██████████████████░░  DAILY DRIVER
-IIS                        ███████████████░░░░░  PRODUCTION
-```
-
----
-
-## `05 // ARCHITECTURE STACK`
-
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              APPLICATION                                    │
-│                                                                             │
-│                    React + TypeScript + Modern UI                           │
-│                                                                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                API                                          │
-│                                                                             │
-│                     ASP.NET Core Web API / REST                             │
-│                                                                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                             APPLICATION                                      │
-│                                                                             │
-│               Use Cases • Services • Business Rules                          │
-│                                                                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                               DOMAIN                                         │
-│                                                                             │
-│                 Entities • Rules • Abstractions                              │
-│                                                                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                            INFRASTRUCTURE                                     │
-│                                                                             │
-│              Dapper • EF Core • SQL Server • External Services               │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### `ARCHITECTURE PRINCIPLES`
-
-```text
-[✓] Separation of Concerns
-[✓] Dependency Inversion
-[✓] Explicit Business Rules
-[✓] Testable Application Logic
-[✓] Modular System Design
-[✓] Performance-Aware Data Access
-[→] Event-Driven Architecture
-[→] Distributed Systems
-```
-
----
-
-## `06 // CURRENTLY EXPERIMENTING`
-
-```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                           LEARNING PIPELINE                                  ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║  Clean Architecture              ████████████████████░░  90%                 ║
-║  Advanced C#                     █████████████████░░░░░  80%                 ║
-║  Database Performance            ███████████████████░░░  85%                 ║
-║  React Architecture              ███████████████░░░░░░░  70%                 ║
-║  Distributed Systems             ████████████░░░░░░░░░░  60%                 ║
-║  RabbitMQ                        ██████████░░░░░░░░░░░░  50%                 ║
-║  Redis                           ████████░░░░░░░░░░░░░░  40%                 ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-### `NEXT OBJECTIVES`
-
-- [ ] Deepen distributed systems knowledge
-- [ ] Build event-driven systems with RabbitMQ
-- [ ] Implement distributed caching with Redis
-- [ ] Master advanced React architecture
-- [ ] Improve testing strategy
-- [ ] Explore observability and system monitoring
-- [ ] Design scalable modular enterprise systems
-
----
-
-## `07 // DEVELOPER ATTRIBUTES`
-
-```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                         DEVELOPER ATTRIBUTES                                ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║  SYSTEM DESIGN         ████████████████░░░░  85                            ║
-║  BACKEND ENGINEERING   █████████████████░░░  90                            ║
-║  DATABASE ENGINEERING  ████████████████░░░░  85                            ║
-║  FRONTEND ENGINEERING  █████████████░░░░░░░  70                            ║
-║  DEBUGGING             ██████████████████░░  95                            ║
-║  PROBLEM SOLVING       █████████████████░░░  90                            ║
-║  CURIOSITY             ████████████████████  100                           ║
-║  COFFEE                ████████████████████  99                            ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
----
-
-## `08 // GITHUB TELEMETRY`
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
+| 📈 Activity Overview | ⚡ Commitment & Languages |
+| :---: | :---: |
+| <img src="https://github-readme-stats.vercel.app/api?username=anphuc2005&show_icons=true&theme=cyberpunk&hide_border=true&count_private=true" width="100%" /> | <img src="https://github-readme-streak-stats.herokuapp.com?user=anphuc2005&theme=cyberpunk&hide_border=true" width="100%" /> |
+| <br/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anphuc2005&layout=compact&theme=cyberpunk&hide_border=true" width="100%" /> | <br/>```text<br/>SYSTEM ACTIVE: Continuous Delivery<br/>MONITORING    : 24/7 Deployment<br/>QUALITY       : Enterprise Grade<br/>``` |
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=TranAnPhuc&theme=tokyonight&hide_border=true" width="49%" />
+</div>
+
+---
+
+## 🌐 Connect & Telemetry
+
+<div align="center">
+
+<a href="https://github.com/anphuc2005">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="mailto:anphuctran24@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=TranAnPhuc&theme=tokyo-night&hide_border=true" width="95%" />
-
-</div>
-
----
-
-## `09 // CONTRIBUTION MATRIX`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/TranAnPhuc/TranAnPhuc/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" />
-
-</div>
-
----
-
-## `10 // SYSTEM LOG`
-
-```text
-[2026] Building enterprise software systems
-[2026] Improving software architecture fundamentals
-[2026] Exploring distributed systems
-[2026] Deepening C# and ASP.NET Core expertise
-[2026] Optimizing database-heavy applications
-[2026] Learning something new every day
-```
-
----
-
-## `11 // CONNECTIVITY`
-
-<div align="center">
-
-<a href="https://github.com/TranAnPhuc">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="mailto:anphuctran24@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-</div>
+<img src="https://komarev.com/ghpvc/?username=anphuc2005&label=PROFILE%20VIEWS&color=00f0ff&style=for-the-badge" />
 
 <br/>
 
-```text
-╭──────────────────────────────────────────────────────────────────────────────╮
-│                                                                              │
-│                           END OF TRANSMISSION                                │
-│                                                                              │
-│   Keep building.                                                            │
-│   Keep learning.                                                            │
-│   Keep improving the system.                                                │
-│                                                                              │
-│                         [ SYSTEM STATUS: ONLINE ]                            │
-│                         [ MODE: ALWAYS LEARNING ]                            │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-```
-
-<div align="center">
-
-### `Thanks for visiting my engineering environment.`
-
-<img src="https://komarev.com/ghpvc/?username=TranAnPhuc&label=PROFILE%20VISITS&color=2DD4BF&style=for-the-badge" />
-
-<br/><br/>
-
-**`TRAN AN PHUC // ENGINEERING OS`**
+<sub><i>Designed with Cyberpunk Aesthetic • Engineered for Enterprise Automation</i></sub>
 
 </div>
