@@ -125,38 +125,12 @@
 
 ---
 
-## 🏆 GitHub Trophy Hall
-
-<div align="center">
-
-<img
-  src="https://github-profile-trophy.vercel.app/?username=TranAnPhuc&theme=onedark&column=6&margin-w=15&margin-h=15&no-bg=true"
-  width="100%"
-  alt="GitHub Trophy Hall"
-/>
-
-</div>
-
----
-
 ## 📊 GitHub Analytics
 
 <table>
 <tr>
 
-<td width="50%" valign="top">
-
-### 📈 Activity Overview
-
-<img
-  src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800"
-  width="100%"
-  alt="GitHub Activity Overview"
-/>
-
-</td>
-
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 
 ### ⚡ Commitment Streak
 
@@ -170,16 +144,6 @@
 
 </tr>
 </table>
-
----
-
-## 🐍 Contribution Arcade Matrix
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/TranAnPhuc/TranAnPhuc/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" width="100%" />
-
-</div>
 
 ---
 
