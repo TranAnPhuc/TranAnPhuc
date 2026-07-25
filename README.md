@@ -129,10 +129,9 @@
 
 <div align="center">
 
-| 📈 Activity Overview | ⚡ Commitment & Languages |
+| 📈 Activity Overview | ⚡ Commitment Streak |
 | :---: | :---: |
-| <img src="https://github-readme-stats.vercel.app/api?username=anphuc2005&show_icons=true&theme=cyberpunk&hide_border=true&count_private=true" width="100%" /> | <img src="https://github-readme-streak-stats.herokuapp.com?user=anphuc2005&theme=cyberpunk&hide_border=true" width="100%" /> |
-| <br/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anphuc2005&layout=compact&theme=cyberpunk&hide_border=true" width="100%" /> | <br/>```text<br/>SYSTEM ACTIVE: Continuous Delivery<br/>MONITORING    : 24/7 Deployment<br/>QUALITY       : Enterprise Grade<br/>``` |
+| <img src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=cyberpunk&hide_border=true&count_private=true" width="100%" /> | <img src="https://github-readme-streak-stats.herokuapp.com?user=TranAnPhuc&theme=cyberpunk&hide_border=true" width="100%" /> |
 
 </div>
 
@@ -142,7 +141,7 @@
 
 <div align="center">
 
-<a href="https://github.com/anphuc2005">
+<a href="https://github.com/TranAnPhuc">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <a href="mailto:anphuctran24@gmail.com">
