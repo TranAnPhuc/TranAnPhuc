@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:0f172a&height=220§ion=header&text=TRAN%20AN%20PHUC&fontSize=48&fontColor=00f0ff&animation=twinkling&desc=Fullstack%20Engineer%20%7C%20Enterprise%20Automation&descSize=18&descAlignY=70&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:0f172a&height=220§ion=header&text=TRAN%20AN%20PHUC&fontSize=48&fontColor=ffffff&animation=twinkling&desc=Fullstack%20Engineer%20%7C%20Enterprise%20Automation&descSize=18&descAlignY=70&descAlign=50" width="100%" />
 
 <br/>
 
@@ -35,15 +35,15 @@
 
 <!-- TYPING EFFECT -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00F0FF¢er=true&vCenter=true&width=600&lines=%3E+Automating+Business+Processes...;%3E+Architecting+Scalable+Web+APIs...;%3E+Building+Modern+React+%2B+TS+Frontends...;%3E+Optimizing+SQL+Server+Databases..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=0969DA¢er=true&vCenter=true&width=600&lines=%3E+Automating+Business+Processes...;%3E+Architecting+Scalable+Web+APIs...;%3E+Building+Modern+React+%2B+TS+Frontends...;%3E+Optimizing+SQL+Server+Databases..." alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 <!-- QUICK BADGES -->
-<img src="https://img.shields.io/badge/ROLE-FULLSTACK_ENGINEER-00f0ff?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/FOCUS-PROCESS_AUTOMATION-ff0055?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/LOCATION-VIETNAM-7000ff?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/ROLE-FULLSTACK_ENGINEER-0969da?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/FOCUS-PROCESS_AUTOMATION-e11d48?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/LOCATION-VIETNAM-7c3aed?style=for-the-badge&logoColor=white" />
 
 </div>
 
@@ -62,9 +62,9 @@
 > MISSION    : Digitizing manual business processes into modern enterprise platforms.
 ```
 
-- 💡 **Định hướng:** Chuyên sâu tối ưu hóa và tự động hóa quy trình nghiệp vụ cho doanh nghiệp.
-- 🏗️ **Xây dựng:** Thiết kế kiến trúc RESTful Web API hiệu năng cao kết hợp giao diện người dùng tối giản, mượt mà.
-- 🗄️ **Xử lý dữ liệu:** Tối ưu hóa truy vấn cơ sở dữ liệu SQL Server, thiết kế luồng dữ liệu chuẩn hóa.
+- 💡 **Core Focus:** Specialized in enterprise process optimization and workflow automation.
+- 🏗️ **Architecture:** Architecting high-performance RESTful Web APIs paired with sleek, modern frontends.
+- 🗄️ **Data Engineering:** Optimizing SQL Server queries and designing robust, normalized database schemas.
 
 </td>
 <td width="40%" align="center" valign="middle">
@@ -131,7 +131,7 @@
 
 | 📈 Activity Overview | ⚡ Commitment Streak |
 | :---: | :---: |
-| <img src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=cyberpunk&hide_border=true&count_private=true" width="100%" /> | <img src="https://github-readme-streak-stats.herokuapp.com?user=TranAnPhuc&theme=cyberpunk&hide_border=true" width="100%" /> |
+| <img src="https://github-readme-stats.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%" /> | <img src="https://github-readme-streak-stats.herokuapp.com?user=TranAnPhuc&theme=tokyonight&hide_border=true" width="100%" /> |
 
 </div>
 
@@ -150,10 +150,10 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=anphuc2005&label=PROFILE%20VIEWS&color=00f0ff&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=anphuc2005&label=PROFILE%20VIEWS&color=0969da&style=for-the-badge" />
 
 <br/>
 
-<sub><i>Designed with Cyberpunk Aesthetic • Engineered for Enterprise Automation</i></sub>
+<sub><i>Designed with Modern Engineering Aesthetic • Engineered for Enterprise Automation</i></sub>
 
 </div>
