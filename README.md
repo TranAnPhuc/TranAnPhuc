@@ -1,169 +1,49 @@
-<div align="center">
+<h2 data-importer="text" align="left">Hi 👋! My name is Tran An Phuc and I'm a Fullstack Development Web</h2>
 
-<!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:0f172a&height=220&section=header&text=TRAN%20AN%20PHUC&fontSize=48&fontColor=58A6FF&animation=twinkling&desc=Fullstack%20Engineer%20%7C%20Enterprise%20Automation&descSize=18&descAlignY=70&descAlign=50" width="100%" />
+###
 
-<br/>
-
-<!-- ASCII ART PORTRAIT -->
-<pre>
- ░░░░░░░░░░░░░░░░░░░░▒▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓███▓▓▓▓▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░░░░░░╦▓▓▓█▓▓▓▓▓▓▓▓▓█▓▓▓▓▓████████████▓▓▓▓▒▒▒░░░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░░░░▒▒▓▓▓█▓█▓██▓█▓▓▓▓▓█▓▓████████████████▓▓▓▒▒░░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░▒▒▒╫▓██████████▓▓██████████████████████████▄▒▒░░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░▒▒▒╫▓████████████████████████████████████████▓▒░░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░▒░▒@▒█████████████████████████████████████████▒╩µ░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░▒▒▒▓█████████████████████████████████████████▌░▐H░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░▒╫╣███████████████████████████████████████████µ\M░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░(░╫█████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░▒▀▓███████████████████████████████████████████▀░░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░▒╫▌█████████████████▀████████████▓████████████▒▒░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░░▒▌█████████████████▓█████████████████████████▀▒░░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░░▒║╫████▌██████████▓▓███████████████████▀▒▒▄▓▌▒▓µ░░░░░░░░░░░░░░░░░░
- ░░░░░░░░░░░░░░░╠╫▀████▓█████████▓████▓████▒▓███▓▒▓██▓▓▒██▓▒▒▒▒▒▒▒▒╦╦░"µ░░░░░░░░░
- ░░░░░░░░░░░░░░░"░░▐▓█████████▀▀▀▓▒▒▒▒▓████▓▄▒▓▓▓▓▓▓███▒▒╫▒▒▓▒▒╫▓▒▒▒▒▒▒▒░░░░░░░░░
- ░░░░░░░░░░░░░░░░░░░²███████▌▓▄╫╫╫╫▒D@╫▓▓▓██╫▒▒▒▒╫▓█▓▌█▓╫╫▒▒▒▒▒▒▒▒▒╫╫▒▒▒µ░░░░░░░░
- ░░░░░░░░░░░░░░░░░░░░▒░▀█████▀▒╫╫▒▒▒╫╫▒▓▒╫╫╫▓▄╫╫╫▓▓▓▓▀╫░░▓▓▒▒▒▒╫▒▒▒▒╫╫▒▒▒µ░░░░░░░
- ░░░░░░░░░░░░░░░░░░░░░░┴▀Ñ▀██▄Ä▒╫╫╫╫▒▒▒▒▒▒▒╫▒▒▒▒▒▒▀╫▒░░░░░▒╫▒▒╫▒▒▒▓▓╫▓▒▒▒╫µ░░░░░░░
- ░░░░░░░░░░░░░░░░░░░░░░░░░H▀▀▓▄x╨Ñ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▓H░░░░░░░▐╫▒╫╫▒▒▒▒▓╫▓▒▒▒▒╫░░░░░░
- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓▒µ▒╫▒▒▒▒▒▒▒▒▒▒▒▓█▀▒░░░░░░░░░░╩╫▒▒▒▒▒▒╫▓▒▒▒▒▒K▄µ▄µ░
- ░░░░░░░░░░░░░░░░░░░░░░ ░░░,╥▄▌`╫╫╫▓╫▒▒▒▒▒▓▌▒▓█▓▄░░░░░░░░░░░░╩╩╫▒╫╫╫▓▒▒▒▒▒╫▓H█▌
- ░░░░░░░░░░░░░░░░░░░░░░░  j█▓▀▓  ╫╫╫▓▓╫▓▓▓▓▒▒▓▓██░░░░░░░░░░░░░░░░░╩▓▓▓▒▓▓▒╫▓▒╫█
- ░░░░░░░░░░░░░░░░░░░░░░░░░░ ▓╫▓▓▓▓▓K╫▓▓▓▓▓▓▓▓▓▓████▄▄░░░▒▒▒░░░░░░░░░░░▓╫▓╫╫▓╫▀╫▓█
- ░░░░░░░░░░░░░░░░░░░░░░░,▄▓▓▓▓██████▓▓▓▓█████████████▓▓▄▒▒▒▒▒▒▒░░░░░1▓▓▓▓╫▓╫╫▓█
-</pre>
-
-<!-- TYPING EFFECT -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=0969DA&center=true&vCenter=true&width=600&lines=%3E+Automating+Business+Processes...;%3E+Architecting+Scalable+Web+APIs...;%3E+Building+Modern+React+%2B+TS+Frontends...;%3E+Optimizing+SQL+Server+Databases..." alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
-<!-- QUICK BADGES -->
-<img src="https://img.shields.io/badge/ROLE-FULLSTACK_ENGINEER-0969DA?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/FOCUS-PROCESS_AUTOMATION-E11D48?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/LOCATION-VIETNAM-7C3AED?style=for-the-badge&logoColor=white" />
-
+<div data-importer="stats" align="center">
+  <img src="https://raw.githubusercontent.com/TranAnPhuc/TranAnPhuc/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/TranAnPhuc/TranAnPhuc/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
----
+###
 
-## ⚡ System Status // About Me
+<img data-importer="image" align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazdkd2Zmd2Y5ejFmeTZ3cjZnMzE0emdhdDJ1aW04ZGZhaGsyZ3RxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WhvoCImxzPm5n7H1Y6/giphy.gif"  />
 
-<table>
-<tr>
-<td width="60%" valign="top">
+###
 
-```text
-> USER       : TRAN AN PHUC
-> ROLE       : Fullstack Software Engineer
-> MAIN STACK : ASP.NET Core • React • TypeScript • SQL Server
-> MISSION    : Digitizing manual business processes into modern enterprise platforms.
-```
-
-- 💡 **Core Focus:** Specialized in enterprise process optimization and workflow automation.
-- 🏗️ **Architecture:** Architecting high-performance RESTful Web APIs paired with sleek, modern frontends.
-- 🗄️ **Data Engineering:** Optimizing SQL Server queries and designing robust, normalized database schemas.
-
-</td>
-<td width="40%" align="center" valign="middle">
-
-```text
-╔═══════════════════════════╗
-║    SYSTEM TELEMETRY       ║
-╠═══════════════════════════╣
-║ Backend    : [████████]   ║
-║ Frontend   : [███████░]   ║
-║ Database   : [████████]   ║
-║ Automation : [████████]   ║
-║ Status     : ACTIVE ●     ║
-╚═══════════════════════════╝
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠 Tech Stack Matrix
-
-<table>
-  <tr>
-    <td align="center" width="25%"><b>Backend</b></td>
-    <td align="center" width="25%"><b>Frontend</b></td>
-    <td align="center" width="25%"><b>Database</b></td>
-    <td align="center" width="25%"><b>Tools & Environment</b></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/ASP.NET_Web_API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/Dapper-000000?style=for-the-badge&logo=nuget&logoColor=white"/>
-    </td>
-    <td align="center" valign="top">
-      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/><br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/><br/>
-      <img src="https://img.shields.io/badge/HTML5%2FCSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-    </td>
-    <td align="center" valign="top">
-      <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-    </td>
-    <td align="center" valign="top">
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/><br/>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-    </td>
-  </tr>
-</table>
-
----
-
-## 📊 GitHub Analytics
-
-<table>
-<tr>
-
-<td width="100%" valign="top">
-
-### ⚡ Commitment Streak
-
-<img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=TranAnPhuc&theme=tokyonight&hide_border=true"
-  width="100%"
-  alt="GitHub Commitment Streak"
-/>
-
-</td>
-
-</tr>
-</table>
-
----
-
-## 🌐 Connect & Telemetry
-
-<div align="center">
-
-<a href="https://github.com/TranAnPhuc">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="mailto:anphuctran24@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=anphuc2005&label=PROFILE%20VIEWS&color=0969DA&style=for-the-badge" alt="Profile Views" />
-
-<br/>
-
-<sub><i>Designed with Modern Engineering Aesthetic • Engineered for Enterprise Automation</i></sub>
-
+<div data-importer="techs" align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
 </div>
+
+###
+
+<div data-importer="socials" align="left">
+  <a href="mailto:anphuctran24@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+  <a href="https://www.facebook.com/anphuctran05" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
+  </a>
+</div>
+
+###
+
+<br clear="both">
+
+<img data-importer="snake" src="https://raw.githubusercontent.com/TranAnPhuc/TranAnPhuc/snake-output/snake.svg" alt="Snake animation" />
+
+###
