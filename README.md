@@ -5,7 +5,7 @@
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=TranAnPhuc&layout=compact&card_width=320&langs_count=5&theme=dracula" height="150" alt="languages graph" />
 </div>
 
-<img data-importer="image" align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazdkd2Zmd2Y5ejFmeTZ3cjZnMzE0emdhdDJ1aW04ZGZhaGsyZ3RxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WhvoCImxzPm5n7H1Y6/giphy.gif" />
+<img data-importer="image" align="right" height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9tMmIzcHFrczNlbHp2YzFnaWNuYW5lcjE0YTBta2dteXNkZ2lrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0wNNkiSqC9EOAt58Hh/giphy.gif" />
 
 <div data-importer="techs" align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo" />
