@@ -1,11 +1,13 @@
-<h2 data-importer="text" align="left">Hi 👋! My name is Tran An Phuc and I'm a Fullstack Development Web</h2>
+<h2 align="left">Hi 👋! My name is Tran An Phuc and I'm a Fullstack Web Developer</h2>
 
-<div data-importer="stats" align="center">
+<div align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=TranAnPhuc&show_icons=true&theme=dracula&count_private=true" height="150" alt="stats graph" />
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=TranAnPhuc&layout=compact&card_width=320&langs_count=5&theme=dracula" height="150" alt="languages graph" />
 </div>
 
-<img data-importer="image" align="right" height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9tMmIzcHFrczNlbHp2YzFnaWNuYW5lcjE0YTBta2dteXNkZ2lrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0wNNkiSqC9EOAt58Hh/giphy.gif" />
+<div align="right">
+  <img height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9tMmIzcHFrczNlbHp2YzFnaWNuYW5lcjE0YTBta2dteXNkZ2lrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0wNNkiSqC9EOAt58Hh/giphy.gif" alt="coding gif" />
+</div>
 
 <div data-importer="techs" align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo" />
