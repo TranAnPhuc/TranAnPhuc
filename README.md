@@ -160,5 +160,3 @@ Refactor
 Document
 
 The objective is to use AI for leverage while keeping engineering judgment human-driven.
-
-</td> </tr> </table>
