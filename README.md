@@ -3,6 +3,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/anphuctran2005">
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=19&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=620&height=40&lines=Full-Stack+Developer;JavaScript+%2F+TypeScript+Specialist;React+%C2%B7+Next.js+%C2%B7+Node.js+%C2%B7+PostgreSQL;Enterprise+Backend+Experience+in+C%23+%2F+ASP.NET+Core" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
   <a href="mailto:anphuctran24@gmail.com">
     <img src="https://img.shields.io/badge/Email-anphuctran24%40gmail.com-06B6D4?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -24,117 +30,95 @@
 
 ### 👨‍💻 About Me
 
-I am a **Full-Stack Software Developer** specializing in the **JavaScript / TypeScript** ecosystem, backed by hands-on enterprise software engineering experience with **C# / ASP.NET Core** and relational databases.
-
-- 💼 **Enterprise Experience:** Built internal production software at **Quang Viet Long An Company**, including workflow automation, database design, and employee proposal systems.
-- 🎯 **Primary Direction:** Full-stack web applications using **TypeScript, React, Next.js, Node.js, and PostgreSQL**.
-- 🏗️ **Architectural Mindset:** Emphasize Clean Architecture, strong typing, relational data integrity, and API contract design.
-- ⚡ **Productivity:** Pragmatically adopt modern developer workflows (including AI-assisted tools for test generation, boilerplate acceleration, and debugging) while maintaining strict human ownership and deep code comprehension.
+- 🔭 **Current Focus:** Building production-grade full-stack web applications with **TypeScript, React, Next.js, Node.js, and PostgreSQL**.
+- 💼 **Enterprise Background:** Software Developer at **Quang Viet Long An Company** — developed internal enterprise systems with **C#, ASP.NET Core, SQL Server, and Dapper**.
+- 🧠 **Engineering Mindset:** Strong advocate for **Clean Architecture, strict type safety, relational data integrity**, and contract-driven API design.
+- 🛠️ **Core Strengths:** Bridging real-world enterprise backend discipline (concurrency, transaction boundaries, indexing) with modern, high-velocity JavaScript/TypeScript workflows.
+- 💬 **Ask Me About:** React state management, Next.js App Router, Node.js microservices, database schema design, and enterprise workflow digitization.
+- 📫 **Direct Reach:** Contact me at [anphuctran24@gmail.com](mailto:anphuctran24@gmail.com).
 
 ---
 
 ### 💼 Enterprise Experience &amp; Professional Background
 
-#### Software Developer · Enterprise Internal Systems *(Quang Viet Long An Company)*
-- **Core Stack:** `C#` · `ASP.NET Core` · `SQL Server` · `Dapper` · `Windows Services` · `REST API`
-- **Key Project — Improvement Proposal System (Kaizen Platform):**
-  - Designed and developed a company-wide web system to replace manual paper proposals with an automated digital workflow.
-  - Implemented multi-tier departmental approval hierarchies, audit trails, and status notifications.
-  - Engineered relational database schemas in SQL Server with indexed views and transaction isolation to support concurrent operational reviews.
+#### **Software Developer · Enterprise Internal Systems**  
+*Quang Viet Long An Company*
+
+- **Flagship Enterprise Platform — Improvement Proposal System (Kaizen Platform):**
+  - Designed and delivered an internal web system to transition paper-based kaizen proposals into an automated digital workflow across departments.
+  - Implemented multi-tier approval hierarchies, role-based access control (RBAC), and automated audit trails.
+  - Engineered relational schemas in **SQL Server** with indexed queries and transaction isolation to support concurrent operational reviews.
+- **Technologies:** `C#` · `ASP.NET Core` · `SQL Server` · `Dapper` · `Windows Server` · `REST API`
 - **Enterprise Foundation as an Asset:**
   - Experience in an enterprise manufacturing environment instilled deep discipline in transaction safety, schema migrations, domain modeling, and long-term maintainability.
-  - This foundation directly elevates how I architect modern **TypeScript**, **Node.js**, and **PostgreSQL** applications today.
+  - This background directly elevates how I architect modern **TypeScript**, **Node.js**, and **PostgreSQL** applications today.
 
 ---
 
-### 🛠️ Technical Stack &amp; Skills
+### 🛠️ Tech Stack &amp; Tools
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌐 Frontend Development</h4>
-      <ul>
-        <li><strong>Languages:</strong> TypeScript, JavaScript (ESNext)</li>
-        <li><strong>Frameworks:</strong> React, Next.js (App Router, SSR, SSG)</li>
-        <li><strong>Styling &amp; UI:</strong> Tailwind CSS, HTML5, CSS3, Responsive Design</li>
-        <li><strong>State &amp; Architecture:</strong> Component-driven design, React Hooks, Client/Server boundary separation</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ Backend &amp; APIs</h4>
-      <ul>
-        <li><strong>Runtimes &amp; Frameworks:</strong> Node.js, Express, RESTful API design</li>
-        <li><strong>Enterprise Stack:</strong> C#, ASP.NET Core Web API, Dapper, Entity Framework</li>
-        <li><strong>Architecture:</strong> Layered Architecture, Repository Pattern, Dependency Injection</li>
-        <li><strong>Security &amp; Auth:</strong> JWT, Role-based Access Control (RBAC), secure password hashing</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗄️ Databases &amp; Storage</h4>
-      <ul>
-        <li><strong>Relational DBMS:</strong> PostgreSQL, Microsoft SQL Server</li>
-        <li><strong>Database Skills:</strong> Relational schema modeling, foreign key constraints, indexing strategies</li>
-        <li><strong>Data Access:</strong> Dapper (High-performance micro-ORM), parameterized SQL, ACID transactions</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🧰 DevOps &amp; Engineering Workflow</h4>
-      <ul>
-        <li><strong>Version Control:</strong> Git, GitHub (Feature branching, PR reviews, Actions CI/CD)</li>
-        <li><strong>Containers &amp; Tools:</strong> Docker, Docker Compose, Linux CLI, VS Code</li>
-        <li><strong>Engineering Practices:</strong> Clean Code, refactoring, unit testing, documentation</li>
-        <li><strong>Modern Workflows:</strong> AI-assisted coding &amp; agentic tools for rapid prototyping and test generation</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <strong>Frontend:</strong><br />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+</p>
+
+<p align="left">
+  <strong>Backend &amp; Enterprise:</strong><br />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Core" />
+  <img src="https://img.shields.io/badge/ASP.NET_Core_Web_API-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core Web API" />
+  <img src="https://img.shields.io/badge/Dapper-00599C?style=flat-square&logo=nuget&logoColor=white" alt="Dapper" />
+</p>
+
+<p align="left">
+  <strong>Databases &amp; Storage:</strong><br />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Relational_Design-111827?style=flat-square&logo=databricks&logoColor=white" alt="Relational Design" />
+  <img src="https://img.shields.io/badge/ACID_Transactions-06B6D4?style=flat-square" alt="ACID Transactions" />
+</p>
+
+<p align="left">
+  <strong>DevOps &amp; Engineering Workflow:</strong><br />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Linux_CLI-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux CLI" />
+</p>
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 📱 [Productivity Application](https://github.com/anphuctran2005/ProductivityApp)
-> **Full-Stack Task &amp; Workflow Platform**
-- **Overview:** A complete multi-tier application designed to practice clean architecture and modern full-stack workflows.
-- **Technical Highlights:** Cross-platform React Native client paired with a modular ASP.NET Core Web API, PostgreSQL persistence layer via Dapper micro-ORM, and containerized Docker environment.
-- **Technologies:** `React Native` · `TypeScript` · `ASP.NET Core` · `PostgreSQL` · `Dapper` · `Docker`
-- **Repository:** [`anphuctran2005/ProductivityApp`](https://github.com/anphuctran2005/ProductivityApp)
-
-#### 🎵 [Music Mashup Web Application](https://github.com/anphuctran2005/audio-mixer-poc)
-> **Interactive In-Browser Audio Mixing Engine**
-- **Overview:** An experimental web application demonstrating complex client-side audio manipulation, real-time multi-track playback, and synchronized timeline controls.
-- **Technical Highlights:** Leverages the HTML5 Web Audio API for custom buffer routing, frequency analysis, and interactive audio playback controls without external heavyweight libraries.
-- **Technologies:** `React` · `JavaScript` · `TypeScript` · `Node.js` · `Web Audio API`
-- **Repository:** [`anphuctran2005/audio-mixer-poc`](https://github.com/anphuctran2005/audio-mixer-poc)
-
-#### 🎧 [Smart TOEIC 4-Skills](https://github.com/anphuctran2005/Learn-TOEIC)
-> **Structured English Assessment &amp; Learning Platform**
-- **Overview:** An interactive educational web application designed for structured English exam preparation with integrated assessment modules.
-- **Technical Highlights:** Modular question bank architecture, synchronized audio listening tests, relational score tracking, and clean component state management.
-- **Technologies:** `React` · `TypeScript` · `Node.js` · `PostgreSQL`
-- **Repository:** [`anphuctran2005/Learn-TOEIC`](https://github.com/anphuctran2005/Learn-TOEIC)
-
-#### 🗃️ [PromptVault](https://github.com/anphuctran2005/PromptVault)
-> **Centralized Prompt Management &amp; Versioning System**
-- **Overview:** A full-stack web application built to store, organize, version, and optimize structured prompt templates for LLM integrations and development workflows.
-- **Technical Highlights:** React frontend with responsive UI, ASP.NET Core Web API backend, schema versioning, and search capabilities.
-- **Technologies:** `React` · `ASP.NET Core` · `SQL Server` · `REST API`
-- **Repository:** [`anphuctran2005/PromptVault`](https://github.com/anphuctran2005/PromptVault)
+| Project | Description | Tech Stack | Source Code |
+| :--- | :--- | :--- | :---: |
+| **[Productivity App](https://github.com/anphuctran2005/ProductivityApp)** | Full-stack task &amp; workflow management platform featuring layered Clean Architecture, JWT authentication, and relational data persistence. | `React Native` · `TypeScript` · `ASP.NET Core` · `PostgreSQL` · `Dapper` · `Docker` | [GitHub Repo](https://github.com/anphuctran2005/ProductivityApp) |
+| **[Music Mashup Engine](https://github.com/anphuctran2005/audio-mixer-poc)** | Interactive client-side audio mixing tool leveraging the HTML5 Web Audio API for real-time multi-track playback and frequency analysis. | `React` · `JavaScript` · `TypeScript` · `Node.js` · `Web Audio API` | [GitHub Repo](https://github.com/anphuctran2005/audio-mixer-poc) |
+| **[Smart TOEIC 4-Skills](https://github.com/anphuctran2005/Learn-TOEIC)** | Structured exam preparation application featuring interactive question banks, synchronized audio listening tests, and progress analytics. | `React` · `TypeScript` · `Node.js` · `PostgreSQL` | [GitHub Repo](https://github.com/anphuctran2005/Learn-TOEIC) |
+| **[PromptVault](https://github.com/anphuctran2005/PromptVault)** | Centralized full-stack web application designed to store, organize, version, and search structured prompt templates for developer workflows. | `React` · `ASP.NET Core` · `SQL Server` · `REST API` | [GitHub Repo](https://github.com/anphuctran2005/PromptVault) |
+| **Kaizen Platform** | Company-wide internal system digitizing employee improvement proposals with multi-tier approval hierarchies and KPI dashboards. | `C#` · `ASP.NET Core` · `SQL Server` · `Dapper` | *Enterprise Internal System* |
 
 ---
 
 ### 💡 Engineering Principles
 
 ```
-Problem Definition ──► Domain Modeling ──► Implementation ──► Automated Testing ──► Code Review ──► Delivery
+Requirement Analysis ──► Domain Modeling ──► Implementation ──► Automated Testing ──► Code Review ──► Delivery
 ```
 
-1. **Understand Before Automating:** Deeply clarify business requirements and data flow before writing the first line of code.
-2. **Type Safety Across Boundaries:** Strict typing (TypeScript &amp; C#) eliminates an entire class of runtime errors and simplifies long-term refactoring.
+1. **Understand Before Automating:** Clarify business logic, data models, and edge cases thoroughly before writing code.
+2. **Type Safety Across Boundaries:** Strict typing (TypeScript &amp; C#) reduces runtime regressions and simplifies refactoring.
 3. **Database-First Integrity:** Business rules belong in thoughtful data constraints, transactions, and explicit domain boundaries.
-4. **Pragmatic AI Adoption:** Use AI tools to accelerate repetitive tasks (boilerplate, test cases, regex, syntax lookups), but always maintain 100% architectural comprehension and code ownership.
+4. **Pragmatic Modern Tooling:** Leverage modern developer workflows (including AI tools for scaffolding, test generation, and regex/syntax acceleration) while maintaining 100% architectural comprehension and code ownership.
 
 ---
 
@@ -142,7 +126,7 @@ Problem Definition ──► Domain Modeling ──► Implementation ──► 
 
 For viewers interested in 3D graphics and WebGL, this repository includes interactive 3D models:
 
-- 📦 **Native 3D Viewers (Click to inspect in GitHub's 3D viewer):**
+- 📦 **Inspect in GitHub Native 3D Viewer:**
   - [`assets/models/ai-core.stl`](assets/models/ai-core.stl) — Floating AI Core &amp; Orbital Gimbal Model
   - [`assets/models/developer-workspace.stl`](assets/models/developer-workspace.stl) — 3D Developer Workstation Model
   - [`assets/models/tech-matrix.stl`](assets/models/tech-matrix.stl) — 3D Modular Architecture Hub
@@ -184,9 +168,19 @@ For viewers interested in 3D graphics and WebGL, this repository includes intera
 
 ### 📫 Get in Touch
 
-- 📧 **Email:** [anphuctran24@gmail.com](mailto:anphuctran24@gmail.com)
-- 🐙 **GitHub:** [github.com/anphuctran2005](https://github.com/anphuctran2005)
-- 💬 **Facebook:** [facebook.com/anphuctran05](https://www.facebook.com/anphuctran05)
+<p align="center">
+  <a href="mailto:anphuctran24@gmail.com">
+    <img src="https://img.shields.io/badge/Email-anphuctran24%40gmail.com-06B6D4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/anphuctran2005">
+    <img src="https://img.shields.io/badge/GitHub-anphuctran2005-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/anphuctran05">
+    <img src="https://img.shields.io/badge/Facebook-anphuctran05-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+</p>
 
 <p align="center">
   <sub>Designed &amp; Maintained by <strong>Tran An Phuc</strong> · 2026</sub>
