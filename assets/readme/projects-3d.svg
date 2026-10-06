@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 430" width="100%" height="100%">
+  <defs>
+    <linearGradient id="proj-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131A" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#090B10" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <!-- Project Borders -->
+    <linearGradient id="proj-border-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="proj-border-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="proj-border-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="proj-border-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <filter id="proj-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <pattern id="proj-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#94A3B8" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="940" height="430" rx="14" fill="#08090D" stroke="#7C3AED" stroke-opacity="0.2" stroke-width="1.2"/>
+  <rect width="940" height="430" rx="14" fill="url(#proj-grid)"/>
+
+  <!-- Top Header HUD -->
+  <g class="font-mono" font-size="10" letter-spacing="1.5">
+    <text x="24" y="24" fill="#06B6D4" font-weight="bold">
+      [04] // FEATURED SYSTEMS &amp; PRODUCTION PROJECTS
+    </text>
+    <text x="916" y="24" text-anchor="end" fill="#94A3B8">
+      STATUS: <tspan fill="#10B981">VERIFIED ARCHITECTURES</tspan>
+    </text>
+  </g>
+
+  <!-- ================= PROJECT 01: Productivity Application ================= -->
+  <g transform="translate(24, 38)" filter="url(#proj-shadow)">
+    <rect width="436" height="175" rx="10" fill="url(#proj-card-bg)" stroke="url(#proj-border-1)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+
+    <!-- Category Pill & Status -->
+    <rect x="16" y="14" width="80" height="18" rx="4" fill="#082F49"/>
+    <text x="56" y="27" text-anchor="middle" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8">FULL-STACK</text>
+
+    <rect x="340" y="14" width="80" height="18" rx="9" fill="#0F172A" stroke="#38BDF8" stroke-width="0.8"/>
+    <circle cx="350" cy="23" r="3" fill="#10B981"/>
+    <text x="388" y="26" text-anchor="middle" class="font-mono" font-size="8" fill="#F8FAFC">PUBLIC REPO</text>
+
+    <!-- Project Title -->
+    <text x="16" y="52" class="font-sans" font-size="16" font-weight="800" fill="#F8FAFC">Productivity Application</text>
+    <text x="16" y="68" class="font-mono" font-size="9.5" fill="#06B6D4">PURPOSE: Task Management &amp; Clean Architecture</text>
+
+    <!-- Description -->
+    <text x="16" y="90" class="font-sans" font-size="11" fill="#94A3B8">Full-stack platform designed to practice modern layered</text>
+    <text x="16" y="106" class="font-sans" font-size="11" fill="#94A3B8">architecture, secure authentication, and relational data modeling.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(16, 126)">
+      <rect x="0" y="0" width="76" height="20" rx="4" fill="#1E293B"/>
+      <text x="38" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#38BDF8">React Native</text>
+
+      <rect x="82" y="0" width="70" height="20" rx="4" fill="#1E293B"/>
+      <text x="117" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#38BDF8">TypeScript</text>
+
+      <rect x="158" y="0" width="82" height="20" rx="4" fill="#2E1065"/>
+      <text x="199" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#C084FC">ASP.NET Core</text>
+
+      <rect x="246" y="0" width="74" height="20" rx="4" fill="#1E1430"/>
+      <text x="283" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#A855F7">PostgreSQL</text>
+
+      <rect x="326" y="0" width="54" height="20" rx="4" fill="#082F49"/>
+      <text x="353" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#06B6D4">Docker</text>
+    </g>
+  </g>
+
+  <!-- ================= PROJECT 02: Music Mashup Web App ================= -->
+  <g transform="translate(480, 38)" filter="url(#proj-shadow)">
+    <rect width="436" height="175" rx="10" fill="url(#proj-card-bg)" stroke="url(#proj-border-2)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#06B6D4" stroke-width="1.5"/>
+
+    <!-- Category Pill & Status -->
+    <rect x="16" y="14" width="98" height="18" rx="4" fill="#082F49"/>
+    <text x="65" y="27" text-anchor="middle" class="font-mono" font-size="8.5" font-weight="700" fill="#06B6D4">AUDIO ENGINE / WEB</text>
+
+    <rect x="340" y="14" width="80" height="18" rx="9" fill="#0F172A" stroke="#06B6D4" stroke-width="0.8"/>
+    <circle cx="350" cy="23" r="3" fill="#10B981"/>
+    <text x="388" y="26" text-anchor="middle" class="font-mono" font-size="8" fill="#F8FAFC">PUBLIC REPO</text>
+
+    <!-- Project Title -->
+    <text x="16" y="52" class="font-sans" font-size="16" font-weight="800" fill="#F8FAFC">Music Mashup Web App</text>
+    <text x="16" y="68" class="font-mono" font-size="9.5" fill="#38BDF8">PURPOSE: Multi-Track Audio Mixing in Browser</text>
+
+    <!-- Description -->
+    <text x="16" y="90" class="font-sans" font-size="11" fill="#94A3B8">Experimental web application leveraging Web Audio API</text>
+    <text x="16" y="106" class="font-sans" font-size="11" fill="#94A3B8">for real-time track synchronizing, playback, and creative mixing.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(16, 126)">
+      <rect x="0" y="0" width="56" height="20" rx="4" fill="#1E293B"/>
+      <text x="28" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#06B6D4">React</text>
+
+      <rect x="62" y="0" width="70" height="20" rx="4" fill="#1E293B"/>
+      <text x="97" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#38BDF8">JavaScript</text>
+
+      <rect x="138" y="0" width="60" height="20" rx="4" fill="#064E3B"/>
+      <text x="168" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#10B981">Node.js</text>
+
+      <rect x="204" y="0" width="98" height="20" rx="4" fill="#0E2F3D"/>
+      <text x="253" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#38BDF8">Web Audio API</text>
+    </g>
+  </g>
+
+  <!-- ================= PROJECT 03: Smart TOEIC 4-Skills ================= -->
+  <g transform="translate(24, 228)" filter="url(#proj-shadow)">
+    <rect width="436" height="175" rx="10" fill="url(#proj-card-bg)" stroke="url(#proj-border-3)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#A855F7" stroke-width="1.5"/>
+
+    <!-- Category Pill & Status -->
+    <rect x="16" y="14" width="70" height="18" rx="4" fill="#2E1065"/>
+    <text x="51" y="27" text-anchor="middle" class="font-mono" font-size="8.5" font-weight="700" fill="#C084FC">EDTECH</text>
+
+    <rect x="340" y="14" width="80" height="18" rx="9" fill="#0F172A" stroke="#A855F7" stroke-width="0.8"/>
+    <circle cx="350" cy="23" r="3" fill="#10B981"/>
+    <text x="388" y="26" text-anchor="middle" class="font-mono" font-size="8" fill="#F8FAFC">PUBLIC REPO</text>
+
+    <!-- Project Title -->
+    <text x="16" y="52" class="font-sans" font-size="16" font-weight="800" fill="#F8FAFC">Smart TOEIC 4-Skills</text>
+    <text x="16" y="68" class="font-mono" font-size="9.5" fill="#A855F7">PURPOSE: Structured Exam Prep &amp; Analytics</text>
+
+    <!-- Description -->
+    <text x="16" y="90" class="font-sans" font-size="11" fill="#94A3B8">Comprehensive English testing platform featuring modular</text>
+    <text x="16" y="106" class="font-sans" font-size="11" fill="#94A3B8">question banks, audio listening flows, and skill tracking.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(16, 126)">
+      <rect x="0" y="0" width="56" height="20" rx="4" fill="#1E293B"/>
+      <text x="28" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#06B6D4">React</text>
+
+      <rect x="62" y="0" width="70" height="20" rx="4" fill="#1E293B"/>
+      <text x="97" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#38BDF8">TypeScript</text>
+
+      <rect x="138" y="0" width="60" height="20" rx="4" fill="#064E3B"/>
+      <text x="168" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#10B981">Node.js</text>
+
+      <rect x="204" y="0" width="76" height="20" rx="4" fill="#2E1065"/>
+      <text x="242" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#C084FC">PostgreSQL</text>
+    </g>
+  </g>
+
+  <!-- ================= PROJECT 04: Improvement Proposal System ================= -->
+  <g transform="translate(480, 228)" filter="url(#proj-shadow)">
+    <rect width="436" height="175" rx="10" fill="url(#proj-card-bg)" stroke="url(#proj-border-4)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#10B981" stroke-width="1.5"/>
+
+    <!-- Category Pill & Status -->
+    <rect x="16" y="14" width="84" height="18" rx="4" fill="#064E3B"/>
+    <text x="58" y="27" text-anchor="middle" class="font-mono" font-size="8.5" font-weight="700" fill="#34D399">ENTERPRISE</text>
+
+    <rect x="330" y="14" width="90" height="18" rx="9" fill="#0F172A" stroke="#10B981" stroke-width="0.8"/>
+    <circle cx="340" cy="23" r="3" fill="#38BDF8"/>
+    <text x="380" y="26" text-anchor="middle" class="font-mono" font-size="8" fill="#F8FAFC">ENTERPRISE APP</text>
+
+    <!-- Project Title -->
+    <text x="16" y="52" class="font-sans" font-size="16" font-weight="800" fill="#F8FAFC">Improvement Proposal System</text>
+    <text x="16" y="68" class="font-mono" font-size="9.5" fill="#10B981">PURPOSE: Internal Kaizen Automation &amp; Approvals</text>
+
+    <!-- Description -->
+    <text x="16" y="90" class="font-sans" font-size="11" fill="#94A3B8">Production system replacing manual paper proposals with</text>
+    <text x="16" y="106" class="font-sans" font-size="11" fill="#94A3B8">multi-tier approval hierarchies, status audits, and KPI dashboards.</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(16, 126)">
+      <rect x="0" y="0" width="36" height="20" rx="4" fill="#2E1065"/>
+      <text x="18" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#C084FC">C#</text>
+
+      <rect x="42" y="0" width="82" height="20" rx="4" fill="#2E1065"/>
+      <text x="83" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#C084FC">ASP.NET Core</text>
+
+      <rect x="130" y="0" width="76" height="20" rx="4" fill="#1E293B"/>
+      <text x="168" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#38BDF8">SQL Server</text>
+
+      <rect x="212" y="0" width="56" height="20" rx="4" fill="#082F49"/>
+      <text x="240" y="14" text-anchor="middle" class="font-mono" font-size="8.5" fill="#06B6D4">Dapper</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ai-pillar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131A" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#090B10" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <linearGradient id="ai-border-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="ai-border-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="ai-border-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="ai-border-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <filter id="ai-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <pattern id="ai-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#94A3B8" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="940" height="210" rx="14" fill="#08090D" stroke="#7C3AED" stroke-opacity="0.25" stroke-width="1.2"/>
+  <rect width="940" height="210" rx="14" fill="url(#ai-grid)"/>
+
+  <!-- Top Header HUD -->
+  <g class="font-mono" font-size="10" letter-spacing="1.5">
+    <text x="24" y="24" fill="#06B6D4" font-weight="bold">
+      [07] // AI-ASSISTED DEVELOPMENT IN PRACTICE
+    </text>
+    <text x="916" y="24" text-anchor="end" fill="#94A3B8">
+      PERSPECTIVE: <tspan fill="#38BDF8">PRACTICAL APPLICATION &amp; AUGMENTATION</tspan>
+    </text>
+  </g>
+
+  <!-- ================= 4 PILLARS ================= -->
+
+  <!-- Pillar 1: AI-Assisted Dev -->
+  <g transform="translate(24, 38)" filter="url(#ai-shadow)">
+    <rect width="210" height="152" rx="10" fill="url(#ai-pillar-bg)" stroke="url(#ai-border-1)" stroke-width="1.2"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#06B6D4" stroke-width="1.5"/>
+
+    <text x="14" y="26" class="font-mono" font-size="9" font-weight="700" fill="#06B6D4">01 // VELOCITY</text>
+    <text x="14" y="48" class="font-sans" font-size="13" font-weight="800" fill="#F8FAFC">AI-Assisted Dev</text>
+    <line x1="14" y1="58" x2="196" y2="58" stroke="#06B6D4" stroke-opacity="0.2" stroke-width="1"/>
+
+    <text x="14" y="76" class="font-sans" font-size="10.5" fill="#94A3B8">Accelerates solution</text>
+    <text x="14" y="92" class="font-sans" font-size="10.5" fill="#94A3B8">exploration, boilerplate</text>
+    <text x="14" y="108" class="font-sans" font-size="10.5" fill="#94A3B8">and syntax lookups.</text>
+    <text x="14" y="132" class="font-mono" font-size="9" fill="#38BDF8">PAIR PROGRAMMING</text>
+  </g>
+
+  <!-- Pillar 2: AI Agents -->
+  <g transform="translate(250, 38)" filter="url(#ai-shadow)">
+    <rect width="210" height="152" rx="10" fill="url(#ai-pillar-bg)" stroke="url(#ai-border-2)" stroke-width="1.2"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#A855F7" stroke-width="1.5"/>
+
+    <text x="14" y="26" class="font-mono" font-size="9" font-weight="700" fill="#A855F7">02 // ORCHESTRATION</text>
+    <text x="14" y="48" class="font-sans" font-size="13" font-weight="800" fill="#F8FAFC">Autonomous Agents</text>
+    <line x1="14" y1="58" x2="196" y2="58" stroke="#7C3AED" stroke-opacity="0.2" stroke-width="1"/>
+
+    <text x="14" y="76" class="font-sans" font-size="10.5" fill="#94A3B8">Command-line agents,</text>
+    <text x="14" y="92" class="font-sans" font-size="10.5" fill="#94A3B8">multi-file refactors &amp;</text>
+    <text x="14" y="108" class="font-sans" font-size="10.5" fill="#94A3B8">test case generation.</text>
+    <text x="14" y="132" class="font-mono" font-size="9" fill="#C084FC">AGENTIC WORKFLOWS</text>
+  </g>
+
+  <!-- Pillar 3: Developer Productivity -->
+  <g transform="translate(476, 38)" filter="url(#ai-shadow)">
+    <rect width="210" height="152" rx="10" fill="url(#ai-pillar-bg)" stroke="url(#ai-border-3)" stroke-width="1.2"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#10B981" stroke-width="1.5"/>
+
+    <text x="14" y="26" class="font-mono" font-size="9" font-weight="700" fill="#10B981">03 // AUTOMATION</text>
+    <text x="14" y="48" class="font-sans" font-size="13" font-weight="800" fill="#F8FAFC">Dev Productivity</text>
+    <line x1="14" y1="58" x2="196" y2="58" stroke="#10B981" stroke-opacity="0.2" stroke-width="1"/>
+
+    <text x="14" y="76" class="font-sans" font-size="10.5" fill="#94A3B8">Eliminating friction</text>
+    <text x="14" y="92" class="font-sans" font-size="10.5" fill="#94A3B8">in setup, scaffolding,</text>
+    <text x="14" y="108" class="font-sans" font-size="10.5" fill="#94A3B8">and repetitive chores.</text>
+    <text x="14" y="132" class="font-mono" font-size="9" fill="#10B981">MAX EFFICIENCY</text>
+  </g>
+
+  <!-- Pillar 4: LLM Applications -->
+  <g transform="translate(702, 38)" filter="url(#ai-shadow)">
+    <rect width="214" height="152" rx="10" fill="url(#ai-pillar-bg)" stroke="url(#ai-border-4)" stroke-width="1.2"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+
+    <text x="14" y="26" class="font-mono" font-size="9" font-weight="700" fill="#38BDF8">04 // INTEGRATION</text>
+    <text x="14" y="48" class="font-sans" font-size="13" font-weight="800" fill="#F8FAFC">LLM Applications</text>
+    <line x1="14" y1="58" x2="200" y2="58" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1"/>
+
+    <text x="14" y="76" class="font-sans" font-size="10.5" fill="#94A3B8">Building intelligent</text>
+    <text x="14" y="92" class="font-sans" font-size="10.5" fill="#94A3B8">apps with structured</text>
+    <text x="14" y="108" class="font-sans" font-size="10.5" fill="#94A3B8">prompts &amp; API models.</text>
+    <text x="14" y="132" class="font-mono" font-size="9" fill="#38BDF8">REAL-WORLD SAAS</text>
+  </g>
+</svg>

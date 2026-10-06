@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 440" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090D"/>
+      <stop offset="50%" stop-color="#0c0e17"/>
+      <stop offset="100%" stop-color="#08090D"/>
+    </linearGradient>
+
+    <radialGradient id="glow-purple" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#7C3AED" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#08090D" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="35%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.24"/>
+      <stop offset="70%" stop-color="#06B6D4" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#08090D" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#7C3AED" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#7C3AED" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Card Fill Gradients -->
+    <linearGradient id="card-grad-ts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151824" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0D0F18" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="card-stroke-ts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="card-stroke-react" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="card-stroke-node" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="card-stroke-pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="text-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+
+    <linearGradient id="accent-cyan-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <!-- Drop Shadows / Glow Filters -->
+    <filter id="shadow-card" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <filter id="neon-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="neon-purple" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="matrix-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#94A3B8" stroke-width="0.5" stroke-opacity="0.06"/>
+      <circle cx="0" cy="0" r="1" fill="#7C3AED" fill-opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="940" height="440" rx="16" fill="url(#hero-bg)" stroke="#7C3AED" stroke-opacity="0.2" stroke-width="1.5"/>
+  <rect width="940" height="440" rx="16" fill="url(#matrix-grid)"/>
+
+  <!-- Radial Glow Spots -->
+  <circle cx="470" cy="200" r="280" fill="url(#glow-purple)"/>
+  <circle cx="470" cy="220" r="200" fill="url(#glow-cyan)"/>
+
+  <!-- Isometric Perspective Floor Horizon -->
+  <g opacity="0.35">
+    <line x1="470" y1="230" x2="60" y2="420" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+    <line x1="470" y1="230" x2="220" y2="420" stroke="#06B6D4" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+    <line x1="470" y1="230" x2="380" y2="420" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.2" stroke-dasharray="3,3"/>
+    <line x1="470" y1="230" x2="470" y2="420" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="470" y1="230" x2="560" y2="420" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.2" stroke-dasharray="3,3"/>
+    <line x1="470" y1="230" x2="720" y2="420" stroke="#06B6D4" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+    <line x1="470" y1="230" x2="880" y2="420" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+
+    <!-- Concentric Isometric Ellipses / Depth Rings -->
+    <ellipse cx="470" cy="290" rx="160" ry="24" fill="none" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4,4"/>
+    <ellipse cx="470" cy="335" rx="270" ry="38" fill="none" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.25"/>
+    <ellipse cx="470" cy="385" rx="380" ry="52" fill="none" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.2"/>
+  </g>
+
+  <!-- Cyber HUD Border Brackets -->
+  <g stroke="#06B6D4" stroke-width="1.5" stroke-linecap="round" opacity="0.85">
+    <path d="M 24 40 L 24 24 L 40 24"/>
+    <path d="M 916 40 L 916 24 L 900 24"/>
+    <path d="M 24 400 L 24 416 L 40 416"/>
+    <path d="M 916 400 L 916 416 L 900 416"/>
+  </g>
+
+  <!-- Top Telemetry Header -->
+  <g class="font-mono" font-size="11" letter-spacing="1">
+    <!-- Left telemetry -->
+    <text x="48" y="36" fill="#94A3B8" opacity="0.9">
+      <tspan fill="#7C3AED" font-weight="bold">[SYS.INIT]</tspan> 3D AI WORKSPACE <tspan fill="#06B6D4" opacity="0.6">//</tspan> DEV_CTR: VN
+    </text>
+
+    <!-- Center System Status -->
+    <rect x="382" y="22" width="176" height="22" rx="11" fill="#11131A" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="396" cy="33" r="3.5" fill="#10B981" filter="url(#neon-cyan)"/>
+    <text x="408" y="36" fill="#F8FAFC" font-size="10" font-weight="600" letter-spacing="1.2">SYSTEM: OPERATIONAL</text>
+
+    <!-- Right telemetry -->
+    <text x="892" y="36" text-anchor="end" fill="#94A3B8" opacity="0.9">
+      ID: <tspan fill="#F8FAFC">anphuctran2005</tspan> <tspan fill="#7C3AED" opacity="0.6">//</tspan> <tspan fill="#06B6D4">CORE: AI-READY</tspan>
+    </text>
+  </g>
+
+  <!-- Connecting Bus Lines from Core to Satellite Cards -->
+  <g stroke-linecap="round" opacity="0.7">
+    <!-- Center to TS/JS (Top-Left) -->
+    <path d="M 470 230 C 370 210, 290 170, 220 150" fill="none" stroke="url(#card-stroke-ts)" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="220" cy="150" r="3" fill="#38BDF8"/>
+
+    <!-- Center to React/Next (Top-Right) -->
+    <path d="M 470 230 C 570 210, 650 170, 720 150" fill="none" stroke="url(#card-stroke-react)" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="720" cy="150" r="3" fill="#06B6D4"/>
+
+    <!-- Center to Node.js (Bottom-Left) -->
+    <path d="M 470 250 C 370 280, 290 320, 220 330" fill="none" stroke="url(#card-stroke-node)" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="220" cy="330" r="3" fill="#10B981"/>
+
+    <!-- Center to PostgreSQL (Bottom-Right) -->
+    <path d="M 470 250 C 570 280, 650 320, 720 330" fill="none" stroke="url(#card-stroke-pg)" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="720" cy="330" r="3" fill="#A855F7"/>
+  </g>
+
+  <!-- Central Title & Identity (Top Half) -->
+  <g text-anchor="middle">
+    <!-- Subtle pre-header label -->
+    <text x="470" y="82" class="font-mono" font-size="11" font-weight="600" fill="#06B6D4" letter-spacing="3" opacity="0.9">
+      &lt; SOFTWARE ENGINEER /&gt;
+    </text>
+
+    <!-- Main Name -->
+    <text x="470" y="118" class="font-sans" font-size="34" font-weight="900" fill="url(#text-title-grad)" letter-spacing="4">
+      TRAN AN PHUC
+    </text>
+
+    <!-- Subtitle -->
+    <text x="470" y="142" class="font-mono" font-size="12" font-weight="700" fill="url(#accent-cyan-purple)" letter-spacing="4">
+      FULL-STACK DEVELOPER · JAVASCRIPT &amp; TYPESCRIPT
+    </text>
+
+    <text x="470" y="160" class="font-sans" font-size="11" fill="#94A3B8" letter-spacing="1">
+      MODERN FULL-STACK SYSTEMS · ROBUST ENTERPRISE ARCHITECTURE · AI-ASSISTED WORKFLOWS
+    </text>
+  </g>
+
+  <!-- CENTERPIECE 3D AI CORE (Isometric Hologram) -->
+  <g transform="translate(470, 245)">
+    <!-- Ambient Pulse Ring -->
+    <ellipse cx="0" cy="0" rx="60" ry="24" fill="url(#core-glow)"/>
+    <ellipse cx="0" cy="0" rx="72" ry="28" fill="none" stroke="#06B6D4" stroke-width="1" stroke-dasharray="4,6" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="90" ry="34" fill="none" stroke="#7C3AED" stroke-width="0.8" stroke-dasharray="2,4" opacity="0.5"/>
+
+    <!-- Isometric 3D Floating Cube / Octahedron Core -->
+    <!-- Lower shadow -->
+    <ellipse cx="0" cy="38" rx="28" ry="10" fill="#000000" opacity="0.4"/>
+
+    <!-- 3D Polyhedron / Core Cube Structure -->
+    <!-- Top Face -->
+    <polygon points="0,-32 28,-16 0,0 -28,-16" fill="#1E2338" stroke="#38BDF8" stroke-width="1.5" opacity="0.95"/>
+    <!-- Left Face -->
+    <polygon points="-28,-16 0,0 0,32 -28,16" fill="#131627" stroke="#7C3AED" stroke-width="1.5" opacity="0.95"/>
+    <!-- Right Face -->
+    <polygon points="0,0 28,-16 28,16 0,32" fill="#0E1220" stroke="#06B6D4" stroke-width="1.5" opacity="0.95"/>
+
+    <!-- Glowing Inner Kernel / AI Core Node -->
+    <circle cx="0" cy="0" r="11" fill="url(#core-glow)" filter="url(#neon-cyan)"/>
+    <circle cx="0" cy="0" r="6" fill="#F8FAFC" filter="url(#neon-purple)"/>
+
+    <!-- Internal Cyber Glyphs -->
+    <line x1="-16" y1="-9" x2="16" y2="9" stroke="#38BDF8" stroke-width="1" opacity="0.6"/>
+    <line x1="16" y1="-9" x2="-16" y2="9" stroke="#A855F7" stroke-width="1" opacity="0.6"/>
+
+    <!-- AI CORE Badge underneath -->
+    <rect x="-46" y="44" width="92" height="20" rx="10" fill="#11131A" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="0" y="58" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#38BDF8" letter-spacing="1.5">
+      AI CORE
+    </text>
+  </g>
+
+  <!-- ================= SATELLITE 3D CARDS ================= -->
+
+  <!-- CARD 1: TOP LEFT - TypeScript / JavaScript -->
+  <g transform="translate(80, 115)" filter="url(#shadow-card)">
+    <rect width="180" height="74" rx="10" fill="url(#card-grad-ts)" stroke="url(#card-stroke-ts)" stroke-width="1.2"/>
+    <!-- Corner accent -->
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+    <!-- Badge -->
+    <rect x="14" y="14" width="34" height="20" rx="5" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+    <text x="31" y="28" text-anchor="middle" class="font-mono" font-size="10" font-weight="bold" fill="#38BDF8">TS</text>
+    <!-- Card Title -->
+    <text x="56" y="28" class="font-sans" font-size="13" font-weight="bold" fill="#F8FAFC">TypeScript</text>
+    <text x="14" y="48" class="font-mono" font-size="9" fill="#06B6D4" letter-spacing="0.5">PRIMARY RUNTIME // JS</text>
+    <text x="14" y="62" class="font-sans" font-size="10" fill="#94A3B8">Type safety &amp; Clean Code</text>
+    <!-- Depth bevel indicator -->
+    <circle cx="166" cy="18" r="3" fill="#38BDF8" opacity="0.8"/>
+  </g>
+
+  <!-- CARD 2: TOP RIGHT - React / Next.js -->
+  <g transform="translate(680, 115)" filter="url(#shadow-card)">
+    <rect width="180" height="74" rx="10" fill="url(#card-grad-ts)" stroke="url(#card-stroke-react)" stroke-width="1.2"/>
+    <!-- Corner accent -->
+    <path d="M 174 12 L 174 6 L 168 6" fill="none" stroke="#06B6D4" stroke-width="1.5"/>
+    <!-- Badge -->
+    <rect x="14" y="14" width="34" height="20" rx="5" fill="#1E293B" stroke="#06B6D4" stroke-width="1"/>
+    <text x="31" y="28" text-anchor="middle" class="font-mono" font-size="10" font-weight="bold" fill="#06B6D4">⚛</text>
+    <!-- Card Title -->
+    <text x="56" y="28" class="font-sans" font-size="13" font-weight="bold" fill="#F8FAFC">React · Next.js</text>
+    <text x="14" y="48" class="font-mono" font-size="9" fill="#38BDF8" letter-spacing="0.5">FRONTEND ARCHITECTURE</text>
+    <text x="14" y="62" class="font-sans" font-size="10" fill="#94A3B8">SSR, SPA &amp; Modern UI</text>
+    <!-- Depth indicator -->
+    <circle cx="166" cy="18" r="3" fill="#06B6D4" opacity="0.8"/>
+  </g>
+
+  <!-- CARD 3: BOTTOM LEFT - Node.js Server -->
+  <g transform="translate(80, 290)" filter="url(#shadow-card)">
+    <rect width="180" height="74" rx="10" fill="url(#card-grad-ts)" stroke="url(#card-stroke-node)" stroke-width="1.2"/>
+    <!-- Corner accent -->
+    <path d="M 6 62 L 6 68 L 12 68" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <!-- Badge -->
+    <rect x="14" y="14" width="34" height="20" rx="5" fill="#13271F" stroke="#10B981" stroke-width="1"/>
+    <text x="31" y="28" text-anchor="middle" class="font-mono" font-size="10" font-weight="bold" fill="#10B981">JS</text>
+    <!-- Card Title -->
+    <text x="56" y="28" class="font-sans" font-size="13" font-weight="bold" fill="#F8FAFC">Node.js</text>
+    <text x="14" y="48" class="font-mono" font-size="9" fill="#10B981" letter-spacing="0.5">BACKEND SERVICES</text>
+    <text x="14" y="62" class="font-sans" font-size="10" fill="#94A3B8">RESTful APIs &amp; Scalability</text>
+    <!-- Depth indicator -->
+    <circle cx="166" cy="18" r="3" fill="#10B981" opacity="0.8"/>
+  </g>
+
+  <!-- CARD 4: BOTTOM RIGHT - PostgreSQL Database -->
+  <g transform="translate(680, 290)" filter="url(#shadow-card)">
+    <rect width="180" height="74" rx="10" fill="url(#card-grad-ts)" stroke="url(#card-stroke-pg)" stroke-width="1.2"/>
+    <!-- Corner accent -->
+    <path d="M 174 62 L 174 68 L 168 68" fill="none" stroke="#A855F7" stroke-width="1.5"/>
+    <!-- Badge -->
+    <rect x="14" y="14" width="34" height="20" rx="5" fill="#251636" stroke="#A855F7" stroke-width="1"/>
+    <text x="31" y="28" text-anchor="middle" class="font-mono" font-size="10" font-weight="bold" fill="#A855F7">PG</text>
+    <!-- Card Title -->
+    <text x="56" y="28" class="font-sans" font-size="13" font-weight="bold" fill="#F8FAFC">PostgreSQL</text>
+    <text x="14" y="48" class="font-mono" font-size="9" fill="#A855F7" letter-spacing="0.5">DATA &amp; SCHEMAS</text>
+    <text x="14" y="62" class="font-sans" font-size="10" fill="#94A3B8">Relational Design &amp; ACID</text>
+    <!-- Depth indicator -->
+    <circle cx="166" cy="18" r="3" fill="#A855F7" opacity="0.8"/>
+  </g>
+
+  <!-- Bottom Telemetry Footer Strip -->
+  <g class="font-mono" font-size="10" letter-spacing="1.5">
+    <line x1="60" y1="412" x2="880" y2="412" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="80" y="428" fill="#94A3B8">
+      FOUNDATION: <tspan fill="#F8FAFC">C# / ASP.NET CORE ENTERPRISE</tspan>
+    </text>
+    <text x="470" y="428" text-anchor="middle" fill="#06B6D4">
+      EVOLUTION: <tspan fill="#F8FAFC">FULL-STACK TS + AI AUGMENTATION</tspan>
+    </text>
+    <text x="860" y="428" text-anchor="end" fill="#94A3B8">
+      STATUS: <tspan fill="#10B981">PRODUCTION-READY</tspan>
+    </text>
+  </g>
+</svg>

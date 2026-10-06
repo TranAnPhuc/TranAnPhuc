@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 42" width="170" height="42">
+  <defs>
+    <linearGradient id="btn-fb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151926"/>
+      <stop offset="100%" stop-color="#0B0D13"/>
+    </linearGradient>
+  </defs>
+  <rect width="170" height="42" rx="8" fill="url(#btn-fb-bg)" stroke="#3B82F6" stroke-width="1.2" stroke-opacity="0.6"/>
+  <!-- Corner notch -->
+  <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#3B82F6" stroke-width="1.2"/>
+  <!-- Facebook Mark -->
+  <g transform="translate(16, 12)" fill="#38BDF8">
+    <path d="M18 9.071C18 4.062 13.97 0 9 0S0 4.062 0 9.071c0 4.526 3.297 8.277 7.594 8.955v-6.335H5.309V9.071h2.285V7.076c0-2.274 1.343-3.53 3.402-3.53.986 0 2.018.177 2.018.177v2.235h-1.137c-1.119 0-1.468.701-1.468 1.421v1.692h2.502l-.4 2.62h-2.102v6.335C14.703 17.348 18 13.597 18 9.071z"/>
+  </g>
+  <!-- Text -->
+  <text x="42" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="8" font-weight="700" fill="#60A5FA" letter-spacing="1">FACEBOOK NETWORK</text>
+  <text x="42" y="31" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">anphuctran05</text>
+</svg>

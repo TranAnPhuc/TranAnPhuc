@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="div-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#7C3AED" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.8"/>
+      <stop offset="75%" stop-color="#7C3AED" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="40" y1="12" x2="900" y2="12" stroke="url(#div-grad)" stroke-width="1.2"/>
+  <!-- Center HUD Diamond -->
+  <polygon points="470,7 475,12 470,17 465,12" fill="#06B6D4"/>
+  <circle cx="470" cy="12" r="1.5" fill="#FFFFFF"/>
+</svg>

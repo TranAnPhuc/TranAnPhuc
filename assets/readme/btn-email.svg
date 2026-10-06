@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 42" width="170" height="42">
+  <defs>
+    <linearGradient id="btn-email-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151926"/>
+      <stop offset="100%" stop-color="#0B0D13"/>
+    </linearGradient>
+  </defs>
+  <rect width="170" height="42" rx="8" fill="url(#btn-email-bg)" stroke="#7C3AED" stroke-width="1.2" stroke-opacity="0.6"/>
+  <!-- Corner notch -->
+  <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#A855F7" stroke-width="1.2"/>
+  <!-- Mail Icon -->
+  <g transform="translate(14, 12)" stroke="#38BDF8" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="2" width="18" height="14" rx="2"/>
+    <path d="M 0 5 L 9 11 L 18 5"/>
+  </g>
+  <!-- Text -->
+  <text x="42" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="8" font-weight="700" fill="#06B6D4" letter-spacing="1">EMAIL DIRECT</text>
+  <text x="42" y="31" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">anphuctran24</text>
+</svg>

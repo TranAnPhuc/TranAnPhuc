@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 185" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ent-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131A" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#090B10" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <linearGradient id="ent-bridge-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <filter id="ent-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <pattern id="ent-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#94A3B8" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="940" height="185" rx="14" fill="#08090D" stroke="#7C3AED" stroke-opacity="0.25" stroke-width="1.2"/>
+  <rect width="940" height="185" rx="14" fill="url(#ent-grid)"/>
+
+  <!-- Top Header HUD -->
+  <g class="font-mono" font-size="10" letter-spacing="1.5">
+    <text x="24" y="24" fill="#A855F7" font-weight="bold">
+      [05] // ENTERPRISE SOFTWARE FOUNDATION
+    </text>
+    <text x="916" y="24" text-anchor="end" fill="#94A3B8">
+      TRANSFERABLE STRENGTH: <tspan fill="#38BDF8">PRODUCTION DISCIPLINE</tspan>
+    </text>
+  </g>
+
+  <!-- Content Container -->
+  <g transform="translate(24, 38)" filter="url(#ent-shadow)">
+    <rect width="892" height="128" rx="10" fill="url(#ent-bg)" stroke="#7C3AED" stroke-opacity="0.3" stroke-width="1.2"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#A855F7" stroke-width="1.5"/>
+
+    <!-- Left Block: Enterprise Core -->
+    <g transform="translate(20, 16)">
+      <text x="0" y="16" class="font-mono" font-size="9" font-weight="700" fill="#A855F7" letter-spacing="1">
+        ENTERPRISE STACK
+      </text>
+      <text x="0" y="38" class="font-sans" font-size="16" font-weight="800" fill="#F8FAFC">
+        C# · ASP.NET Core · SQL Server · Dapper
+      </text>
+      <text x="0" y="58" class="font-sans" font-size="11" fill="#94A3B8">
+        Production backend logic, transaction boundaries, layered architecture &amp; high-performance data access.
+      </text>
+
+      <!-- Badge Strip -->
+      <g transform="translate(0, 72)">
+        <rect x="0" y="0" width="56" height="22" rx="4" fill="#2E1065"/>
+        <text x="28" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#C084FC">C# .NET</text>
+
+        <rect x="64" y="0" width="94" height="22" rx="4" fill="#2E1065"/>
+        <text x="111" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#C084FC">ASP.NET Core</text>
+
+        <rect x="166" y="0" width="86" height="22" rx="4" fill="#1E293B"/>
+        <text x="209" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#38BDF8">SQL Server</text>
+
+        <rect x="260" y="0" width="68" height="22" rx="4" fill="#082F49"/>
+        <text x="294" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#06B6D4">Dapper</text>
+      </g>
+    </g>
+
+    <!-- Visual Bridge / Arrow in Middle -->
+    <g transform="translate(510, 24)">
+      <line x1="0" y1="40" x2="60" y2="40" stroke="url(#ent-bridge-grad)" stroke-width="2.5" stroke-dasharray="4,4"/>
+      <polygon points="65,40 56,35 56,45" fill="#06B6D4"/>
+      <text x="30" y="24" text-anchor="middle" class="font-mono" font-size="8.5" fill="#38BDF8" letter-spacing="1">EXPANDING</text>
+    </g>
+
+    <!-- Right Block: Modern Evolution -->
+    <g transform="translate(595, 16)">
+      <text x="0" y="16" class="font-mono" font-size="9" font-weight="700" fill="#06B6D4" letter-spacing="1">
+        CURRENT HORIZON
+      </text>
+      <text x="0" y="38" class="font-sans" font-size="16" font-weight="800" fill="#F8FAFC">
+        Modern Full-Stack Ecosystem
+      </text>
+      <text x="0" y="58" class="font-sans" font-size="11" fill="#94A3B8">
+        Applying enterprise rigor to TypeScript, React, Next.js, Node.js, and autonomous AI development.
+      </text>
+
+      <!-- Badge Strip -->
+      <g transform="translate(0, 72)">
+        <rect x="0" y="0" width="84" height="22" rx="4" fill="#082F49"/>
+        <text x="42" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#38BDF8">TypeScript</text>
+
+        <rect x="92" y="0" width="54" height="22" rx="4" fill="#082F49"/>
+        <text x="119" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#06B6D4">React</text>
+
+        <rect x="154" y="0" width="64" height="22" rx="4" fill="#1E293B"/>
+        <text x="186" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#F8FAFC">Next.js</text>
+
+        <rect x="226" y="0" width="58" height="22" rx="4" fill="#064E3B"/>
+        <text x="255" y="15" text-anchor="middle" class="font-mono" font-size="9" fill="#10B981">Node.js</text>
+      </g>
+    </g>
+  </g>
+</svg>

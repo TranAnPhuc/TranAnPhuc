@@ -1,297 +1,237 @@
-<h1 align="center">Hi 👋, I'm Tran An Phuc</h1>
-
 <p align="center">
-  <strong>Full-stack Developer · JavaScript · TypeScript · React · Node.js</strong>
-</p>
-
-<p align="center">
-  Building practical software, learning through real projects, and exploring AI-assisted development.
+  <img src="assets/readme/hero-3d.svg" alt="Tran An Phuc — 3D AI Developer Workspace" width="100%" />
 </p>
 
 <p align="center">
   <a href="mailto:anphuctran24@gmail.com">
-    <img src="https://img.shields.io/badge/Email-anphuctran24%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="assets/readme/btn-email.svg" alt="Email" height="38" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/anphuctran2005">
-    <img src="https://img.shields.io/badge/GitHub-anphuctran2005-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    <img src="assets/readme/btn-github.svg" alt="GitHub" height="38" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://www.facebook.com/anphuctran05">
-    <img src="https://img.shields.io/badge/Facebook-anphuctran05-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="assets/readme/btn-facebook.svg" alt="Facebook" height="38" />
   </a>
 </p>
 
-👨‍💻 About Me
-
-I'm a Full-stack Developer focused on the JavaScript / TypeScript ecosystem.
-
-I enjoy turning real-world problems into practical software and learning through projects rather than isolated tutorials.
-
-My current direction is centered around:
-
-⚛️ React and modern frontend development
-
-🟦 TypeScript and JavaScript
-
-🟢 Node.js backend development
-
-🗄️ PostgreSQL and relational database design
-
-🤖 AI-assisted development and AI Agents
-
-🧠 Clean Code, architecture, testing, and maintainability
-
-I also have hands-on enterprise development experience with C#, ASP.NET Core, SQL Server, and Dapper. I'm keeping that experience as a strong backend foundation while moving my primary development direction toward the modern JavaScript ecosystem.
-
-💡 Development Philosophy
-
-Use AI to accelerate development, but understand the code well enough to maintain it without AI.
-
-I use AI as a development partner for:
-
-Exploring solutions
-
-Generating and modifying code
-
-Refactoring
-
-Debugging
-
-Documentation
-
-Learning unfamiliar technologies
-
-The goal is not simply to generate more code.
-
-The goal is to understand why the code works, why the architecture makes sense, and how to maintain it when requirements change.
-
-🛠️ Tech Stack
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-⚛️ Frontend
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="42" alt="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="42" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" alt="React" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="42" alt="Next.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="42" alt="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="42" alt="CSS3" />
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
 </p>
 
-🎨 UI & Web
+## 01 // DEVELOPER IDENTITY
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="42" alt="Bootstrap" />
+<p align="center">
+  <img src="assets/readme/developer-profile-3d.svg" alt="Developer Profile Matrix" width="100%" />
 </p>
 
-</td>
+I am a **Full-Stack Developer** focused on building production-grade web systems within the **JavaScript / TypeScript** ecosystem.
 
-<td width="50%" valign="top">
+- **Primary Stack:** TypeScript, JavaScript, React, Next.js, Node.js, and PostgreSQL.
+- **Enterprise Heritage:** Real-world engineering experience with C#, ASP.NET Core, SQL Server, and Dapper.
+- **AI-Augmented Engineering:** Leveraging autonomous agents and AI tooling to accelerate delivery while maintaining complete code comprehension and architectural integrity.
+- **Methodology:** Practical, project-centric development where maintainability, clean architecture, and business impact come first.
 
-🟢 Backend & Database
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="42" alt="Node.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="42" alt="PostgreSQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="42" alt="MySQL" />
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
 </p>
 
-📱 Mobile
+## 02 // TECH STACK ARCHITECTURE
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" alt="React Native" />
+<p align="center">
+  <img src="assets/readme/tech-stack-3d.svg" alt="Tech Stack Architecture" width="100%" />
 </p>
 
-</td>
-</tr>
+| Domain | Core Technologies &amp; Practices | Primary Focus |
+| :--- | :--- | :--- |
+| **Frontend** | `JavaScript (ESNext)` · `TypeScript` · `React` · `Next.js` · `HTML5` · `CSS3` | Modern SPA/SSR architectures, responsive interfaces, strict typing |
+| **Backend &amp; Data** | `Node.js` · `PostgreSQL` · `RESTful APIs` · `System Architecture` | Relational data modeling, ACID transactions, modular clean code |
+| **Tooling &amp; Platform** | `Git` · `GitHub Actions` · `Docker` · `VS Code` · `Linux CLI` | Reproducible containers, automated workflows, version control |
+| **AI Development** | `AI Agents` · `AI-Assisted Coding` · `Claude Code` · `Antigravity` | Agentic task orchestration, rapid prototyping, test automation |
 
-<tr>
-<td width="50%" valign="top">
-
-🛠️ Tools & Workflow
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="42" alt="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="42" alt="GitHub" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="42" alt="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="42" alt="VS Code" />
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
 </p>
 
-🧠 Engineering Practices
+## 03 // CURRENT FOCUS &amp; TRAJECTORY
 
-RESTful API
-
-Clean Code
-
-Refactoring
-
-Database Design
-
-Testing
-
-Documentation
-
-</td>
-
-<td width="50%" valign="top">
-
-🤖 AI & Modern Development
-
-<p align="left">
-  <img src="https://img.shields.io/badge/AI-assisted_Development-111827?style=flat-square" alt="AI-assisted Development" />
-  <img src="https://img.shields.io/badge/AI_Agents-6C47FF?style=flat-square" alt="AI Agents" />
+<p align="center">
+  <img src="assets/readme/focus-pipeline-3d.svg" alt="Current Focus Progression Pipeline" width="100%" />
 </p>
 
-Current interests:
+My technical trajectory is deliberately structured from foundational language mastery to scalable cloud services and intelligent systems:
 
-AI Agents
+```
+JavaScript ──► TypeScript ──► React / Next.js ──► Node.js
+                                                    │
+SaaS / Automation ◄── AI Agents ◄── System Design ◄── PostgreSQL
+```
 
-LLM-powered applications
+I am focused on end-to-end full-stack engineering: defining domain boundaries, implementing resilient backend services, crafting high-performance frontend interfaces, and utilizing AI agents to eliminate development friction.
 
-AI-assisted coding workflows
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
+</p>
 
-Developer productivity
+## 04 // FEATURED PROJECTS
 
-Automation
+<p align="center">
+  <img src="assets/readme/projects-3d.svg" alt="Featured Systems and Projects" width="100%" />
+</p>
 
-</td>
-</tr>
-</table>
+### 📱 [Productivity Application](https://github.com/anphuctran2005/ProductivityApp)
+> **Full-Stack Task &amp; Workflow Platform**
+- **Architecture:** Multi-layered clean architecture separating presentation, domain, and data persistence layers.
+- **Capabilities:** Task management, secure JWT authentication, API contract design, and relational database schema modeling.
+- **Technologies:** `React Native` · `TypeScript` · `ASP.NET Core` · `PostgreSQL` · `Dapper` · `Docker`
+- **Source:** [`github.com/anphuctran2005/ProductivityApp`](https://github.com/anphuctran2005/ProductivityApp)
 
-🎯 Current Focus
+---
 
-JavaScript / TypeScript
-        │
-        ├── React / Next.js
-        │
-        ├── Node.js
-        │
-        ├── PostgreSQL
-        │
-        └── AI-assisted Development
+### 🎵 [Music Mashup Web Application](https://github.com/anphuctran2005/audio-mixer-poc)
+> **In-Browser Audio Engine &amp; Creative Multi-Track Mixing**
+- **Architecture:** Interactive client-side audio pipeline utilizing the HTML5 Web Audio API.
+- **Capabilities:** Multi-channel audio synchronization, real-time waveform playback controls, and client-side processing.
+- **Technologies:** `React` · `JavaScript` · `TypeScript` · `Node.js` · `Web Audio API`
+- **Source:** [`github.com/anphuctran2005/audio-mixer-poc`](https://github.com/anphuctran2005/audio-mixer-poc)
 
-I'm currently focusing on becoming a stronger full-stack developer by building complete applications from frontend to backend, database, deployment, and maintenance.
+---
 
-🚀 Selected Projects
+### 🎧 [Smart TOEIC 4-Skills](https://github.com/anphuctran2005/Learn-TOEIC)
+> **Structured English Exam Preparation &amp; Assessment Platform**
+- **Architecture:** Modular learning platform optimized for interactive test simulations and practice analytics.
+- **Capabilities:** Structured question repositories, audio playback test flows, progress assessment, and relational storage.
+- **Technologies:** `React` · `TypeScript` · `Node.js` · `PostgreSQL`
+- **Source:** [`github.com/anphuctran2005/Learn-TOEIC`](https://github.com/anphuctran2005/Learn-TOEIC)
 
-📱 Productivity Application
+---
 
-A full-stack productivity platform created to practice modern application architecture and project-based development.
+### ⚙️ Improvement Proposal System (Kaizen)
+> **Internal Enterprise Workflow Automation &amp; Approval Engine**
+- **Architecture:** Enterprise production application deployed to replace manual paper proposals with an automated system.
+- **Capabilities:** Multi-tier departmental approval hierarchies, audit trails, proposal status tracking, and KPI reporting.
+- **Technologies:** `C#` · `ASP.NET Core` · `SQL Server` · `Dapper`
+- **Status:** *Production Enterprise Application (Quang Viet Long An)*
 
-Focus: task management, authentication, API design, database modeling, clean architecture.
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
+</p>
 
-Stack: React Native · TypeScript · ASP.NET Core · PostgreSQL · Dapper · Docker
+## 05 // ENTERPRISE EXPERIENCE
 
-🎵 Music Mashup Web App
+<p align="center">
+  <img src="assets/readme/enterprise-exp-3d.svg" alt="Enterprise Software Foundation" width="100%" />
+</p>
 
-An experimental web application exploring creative audio experiences by combining multiple songs into a new mashup.
+> *I have practical enterprise software experience and am now extending that foundation into the modern JavaScript ecosystem.*
 
-Focus: audio processing, user interaction, creative tooling, and modern JavaScript development.
+Working with **C#**, **ASP.NET Core**, **SQL Server**, and **Dapper** in an enterprise production environment provided a rigorous foundation:
 
-Stack: React · TypeScript · Node.js · Web Audio
+- **Data Integrity &amp; Transactions:** Designing strict relational models, query performance optimization, and ACID guarantees.
+- **Layered Architecture:** Clear decoupling between domain logic, data access, and API controllers.
+- **Maintainability:** Writing defensive, typed code that enterprise teams can operate and maintain over multi-year lifecycles.
 
-🎧 Smart TOEIC 4-Skills
+This background is an intentional asset: it informs how I design **TypeScript**, **Node.js**, and **PostgreSQL** architectures today.
 
-A project focused on building a structured learning experience for English test preparation.
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
+</p>
 
-Focus: content organization, interactive learning flows, backend APIs, and data-driven features.
+## 06 // ENGINEERING PHILOSOPHY
 
-Stack: React · TypeScript · Node.js · PostgreSQL
+<p align="center">
+  <img src="assets/readme/ai-pipeline-3d.svg" alt="Engineering Philosophy &amp; AI Pipeline" width="100%" />
+</p>
 
-🧭 Learning Direction
+> **"Use AI to accelerate development, but understand the code well enough to maintain it without AI."**
 
-My current roadmap:
+I treat AI as an engineering amplifier rather than an oracle:
 
-JavaScript
-    ↓
-TypeScript
-    ↓
-React
-    ↓
-Next.js
-    ↓
-Node.js
-    ↓
-PostgreSQL
-    ↓
-System Design
-    ↓
-AI Agents
-    ↓
-SaaS / Automation
+1. **Problem Definition:** Establish unambiguous domain requirements before writing any code.
+2. **Explore Alternatives:** Use AI models to quickly survey architectural trade-offs and edge cases.
+3. **Intentional Design:** Define data models, interfaces, and boundary contracts manually.
+4. **Implementation:** Pair with AI tools for rapid scaffolding and syntax acceleration.
+5. **Code Review &amp; Audit:** Review every generated line with rigorous engineering scrutiny.
+6. **Automated Testing:** Verify behavior through unit, integration, and contract tests.
+7. **Refactoring:** Simplify abstractions and eliminate unnecessary complexity.
+8. **Documentation:** Produce clear technical documentation for future maintainers.
 
-The long-term goal is to become an engineer who can:
+The primary objective is never raw line count—it is building reliable systems whose internal mechanics are thoroughly understood.
 
-Understand the problem → Design the solution → Build it → Test it → Deploy it → Maintain it
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
+</p>
 
-🏗️ What I Like Building
+## 07 // AI DEVELOPMENT IN PRACTICE
 
-Developer productivity tools
+<p align="center">
+  <img src="assets/readme/ai-core-3d.svg" alt="AI Development in Practice" width="100%" />
+</p>
 
-Internal business applications
+*Exploring practical AI-assisted software development and AI-powered applications.*
 
-SaaS products
+- **AI-Assisted Development:** Utilizing modern LLMs as interactive pair programmers for debugging, design validation, and architectural prototyping.
+- **Autonomous Dev Agents:** Incorporating command-line agentic tooling (such as Claude Code and Antigravity) for multi-file refactoring, test generation, and automated code review.
+- **Developer Productivity:** Automating boilerplate setup, CI script writing, and documentation generation to maximize focus on core business logic.
+- **LLM-Powered Applications:** Exploring real-world applications (such as [PromptVault](https://github.com/anphuctran2005/PromptVault)) that store, version, and orchestrate structured prompts for LLM integrations.
 
-Automation tools
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
+</p>
 
-AI-powered applications
-
-Interactive web experiences
-
-Mobile applications
-
-I especially enjoy projects where software replaces repetitive manual work with a better workflow.
-
-📈 GitHub Activity
+## 08 // GITHUB ACTIVITY &amp; METRICS
 
 <div align="center">
-
-<img
- src="https://github-stats-extended.vercel.app/api?username=anphuctran2005&show_icons=true&theme=dracula&count_private=true"
- height="170"
- alt="GitHub Statistics"
-/>
-
-<img
- src="https://github-stats-extended.vercel.app/api/top-langs/?username=anphuctran2005&layout=compact&card_width=320&langs_count=6&theme=dracula"
- height="170"
- alt="Top Languages"
-/>
-
+  <a href="https://github.com/anphuctran2005">
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=anphuctran2005&show_icons=true&bg_color=08090D&title_color=06B6D4&text_color=94A3B8&icon_color=7C3AED&border_color=7C3AED40"
+      height="165"
+      alt="GitHub Statistics"
+    />
+  </a>
+  &nbsp;
+  <a href="https://github.com/anphuctran2005">
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=anphuctran2005&layout=compact&bg_color=08090D&title_color=06B6D4&text_color=94A3B8&border_color=7C3AED40"
+      height="165"
+      alt="Top Languages"
+    />
+  </a>
 </div>
 
-🐍 Contribution Activity
+<br />
 
 <div align="center">
-
-<img
- src="https://raw.githubusercontent.com/anphuctran2005/anphuctran2005/output/github-contribution-grid-snake.svg"
- alt="GitHub Contribution Snake"
-/>
-
+  <img
+    src="https://raw.githubusercontent.com/anphuctran2005/anphuctran2005/output/github-contribution-grid-snake-dark.svg"
+    alt="GitHub Contribution Snake"
+    width="100%"
+  />
 </div>
 
-📫 Connect With Me
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
+</p>
 
-<p align="left">
+## 09 // CONNECT &amp; TRANSMISSION
+
+<p align="center">
   <a href="mailto:anphuctran24@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="assets/readme/btn-email.svg" alt="Email" height="42" />
   </a>
-
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/anphuctran2005">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="assets/readme/btn-github.svg" alt="GitHub" height="42" />
   </a>
-
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.facebook.com/anphuctran05">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="assets/readme/btn-facebook.svg" alt="Facebook" height="42" />
   </a>
 </p>
 
-<div align="center">
+<br />
 
-Build. Learn. Break. Fix. Improve. Repeat.
-
-</div>
+<p align="center">
+  <img src="assets/readme/footer-3d.svg" alt="Build. Architect. Refine. Deliver." width="100%" />
+</p>

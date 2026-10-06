@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 390" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="stack-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131A" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#090B10" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <!-- Border Gradients -->
+    <linearGradient id="border-fe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="border-be" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="border-tool" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="border-ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <filter id="card-shadow-stack" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <pattern id="stack-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#94A3B8" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="940" height="390" rx="14" fill="#08090D" stroke="#7C3AED" stroke-opacity="0.2" stroke-width="1.2"/>
+  <rect width="940" height="390" rx="14" fill="url(#stack-grid)"/>
+
+  <!-- Section Header HUD -->
+  <g class="font-mono" font-size="10" letter-spacing="1.5">
+    <text x="24" y="24" fill="#06B6D4" font-weight="bold">
+      [02] // 2X2 TECHNOLOGY STACK ARCHITECTURE
+    </text>
+    <text x="916" y="24" text-anchor="end" fill="#94A3B8">
+      PRIMARY ECOSYSTEM: <tspan fill="#F8FAFC">JS / TS / NODE / AI</tspan>
+    </text>
+  </g>
+
+  <!-- ================= TOP LEFT: FRONTEND ================= -->
+  <g transform="translate(24, 38)" filter="url(#card-shadow-stack)">
+    <rect width="436" height="158" rx="10" fill="url(#stack-card-bg)" stroke="url(#border-fe)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#06B6D4" stroke-width="1.5"/>
+
+    <!-- Category Header -->
+    <rect x="14" y="12" width="94" height="20" rx="5" fill="#082F49" stroke="#06B6D4" stroke-width="0.8"/>
+    <text x="61" y="26" text-anchor="middle" class="font-mono" font-size="9" font-weight="bold" fill="#38BDF8" letter-spacing="1">
+      FRONTEND
+    </text>
+    <text x="118" y="26" class="font-mono" font-size="9" fill="#94A3B8">CLIENT APPLICATIONS</text>
+
+    <!-- Technologies Grid -->
+    <!-- JavaScript -->
+    <g transform="translate(14, 42)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#FACC15"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">JavaScript</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">ESNext · Async · Core</text>
+      <rect x="142" y="14" width="44" height="16" rx="3" fill="#082F49"/>
+      <text x="164" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#38BDF8">CORE</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g transform="translate(218, 42)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#06B6D4" stroke-width="1.1"/>
+      <circle cx="20" cy="23" r="4" fill="#38BDF8"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">TypeScript</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Strict Types · Generics</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#0E2F3D"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#06B6D4">PRIMARY</text>
+    </g>
+
+    <!-- React -->
+    <g transform="translate(14, 96)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#06B6D4" stroke-width="1.1"/>
+      <circle cx="20" cy="23" r="4" fill="#06B6D4"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">React</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Hooks · State · UI</text>
+      <rect x="138" y="14" width="48" height="16" rx="3" fill="#0E2F3D"/>
+      <text x="162" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#06B6D4">PRIMARY</text>
+    </g>
+
+    <!-- Next.js -->
+    <g transform="translate(218, 96)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#F8FAFC"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">Next.js</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">App Router · SSR · API</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#1E293B"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#94A3B8">FULL-STACK</text>
+    </g>
+  </g>
+
+  <!-- ================= TOP RIGHT: BACKEND ================= -->
+  <g transform="translate(480, 38)" filter="url(#card-shadow-stack)">
+    <rect width="436" height="158" rx="10" fill="url(#stack-card-bg)" stroke="url(#border-be)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#A855F7" stroke-width="1.5"/>
+
+    <!-- Category Header -->
+    <rect x="14" y="12" width="94" height="20" rx="5" fill="#2E1065" stroke="#A855F7" stroke-width="0.8"/>
+    <text x="61" y="26" text-anchor="middle" class="font-mono" font-size="9" font-weight="bold" fill="#C084FC" letter-spacing="1">
+      BACKEND
+    </text>
+    <text x="118" y="26" class="font-mono" font-size="9" fill="#94A3B8">SERVICES &amp; DATA SYSTEMS</text>
+
+    <!-- Technologies Grid -->
+    <!-- Node.js -->
+    <g transform="translate(14, 42)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#10B981" stroke-width="1.1"/>
+      <circle cx="20" cy="23" r="4" fill="#10B981"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">Node.js</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Runtime · Microservices</text>
+      <rect x="138" y="14" width="48" height="16" rx="3" fill="#064E3B"/>
+      <text x="162" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#10B981">PRIMARY</text>
+    </g>
+
+    <!-- PostgreSQL -->
+    <g transform="translate(218, 42)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#A855F7" stroke-width="1.1"/>
+      <circle cx="20" cy="23" r="4" fill="#A855F7"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">PostgreSQL</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Relational · Indexing</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#3B0764"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#C084FC">PRIMARY</text>
+    </g>
+
+    <!-- REST APIs -->
+    <g transform="translate(14, 96)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#7C3AED"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">REST API</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Contracts · JWT · Auth</text>
+      <rect x="138" y="14" width="48" height="16" rx="3" fill="#2E1065"/>
+      <text x="162" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#A855F7">PROTOCOL</text>
+    </g>
+
+    <!-- Architecture & Clean Code -->
+    <g transform="translate(218, 96)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#38BDF8"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">Architecture</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Clean Code · Modularity</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#1E293B"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#94A3B8">PRACTICE</text>
+    </g>
+  </g>
+
+  <!-- ================= BOTTOM LEFT: TOOLING ================= -->
+  <g transform="translate(24, 210)" filter="url(#card-shadow-stack)">
+    <rect width="436" height="158" rx="10" fill="url(#stack-card-bg)" stroke="url(#border-tool)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#10B981" stroke-width="1.5"/>
+
+    <!-- Category Header -->
+    <rect x="14" y="12" width="94" height="20" rx="5" fill="#064E3B" stroke="#10B981" stroke-width="0.8"/>
+    <text x="61" y="26" text-anchor="middle" class="font-mono" font-size="9" font-weight="bold" fill="#34D399" letter-spacing="1">
+      TOOLING
+    </text>
+    <text x="118" y="26" class="font-mono" font-size="9" fill="#94A3B8">DEVOPS &amp; ENVIRONMENT</text>
+
+    <!-- Technologies Grid -->
+    <!-- Git -->
+    <g transform="translate(14, 42)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#10B981" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#F97316"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">Git</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Branching · Rebasing</text>
+      <rect x="142" y="14" width="44" height="16" rx="3" fill="#064E3B"/>
+      <text x="164" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#34D399">VCS</text>
+    </g>
+
+    <!-- GitHub -->
+    <g transform="translate(218, 42)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#10B981" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#F8FAFC"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">GitHub</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Actions · Workflows</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#1E293B"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#94A3B8">CI / CD</text>
+    </g>
+
+    <!-- Docker -->
+    <g transform="translate(14, 96)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#0284C7"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">Docker</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Containers · Compose</text>
+      <rect x="138" y="14" width="48" height="16" rx="3" fill="#082F49"/>
+      <text x="162" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#38BDF8">RUNTIME</text>
+    </g>
+
+    <!-- VS Code -->
+    <g transform="translate(218, 96)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#10B981" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#0284C7"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">VS Code</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Workspace · Debugger</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#1E293B"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#94A3B8">EDITOR</text>
+    </g>
+  </g>
+
+  <!-- ================= BOTTOM RIGHT: AI DEVELOPMENT ================= -->
+  <g transform="translate(480, 210)" filter="url(#card-shadow-stack)">
+    <rect width="436" height="158" rx="10" fill="url(#stack-card-bg)" stroke="url(#border-ai)" stroke-width="1.3"/>
+    <path d="M 6 12 L 6 6 L 12 6" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+
+    <!-- Category Header -->
+    <rect x="14" y="12" width="108" height="20" rx="5" fill="#082F49" stroke="#38BDF8" stroke-width="0.8"/>
+    <text x="68" y="26" text-anchor="middle" class="font-mono" font-size="9" font-weight="bold" fill="#38BDF8" letter-spacing="1">
+      AI DEVELOPMENT
+    </text>
+    <text x="132" y="26" class="font-mono" font-size="9" fill="#94A3B8">AUGMENTED WORKFLOWS</text>
+
+    <!-- Technologies Grid -->
+    <!-- AI Agents -->
+    <g transform="translate(14, 42)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#06B6D4" stroke-width="1.1"/>
+      <circle cx="20" cy="23" r="4" fill="#06B6D4"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">AI Agents</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Autonomous Tasks</text>
+      <rect x="138" y="14" width="48" height="16" rx="3" fill="#0E2F3D"/>
+      <text x="162" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#06B6D4">CORE</text>
+    </g>
+
+    <!-- AI-assisted Coding -->
+    <g transform="translate(218, 42)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#7C3AED" stroke-width="1.1"/>
+      <circle cx="20" cy="23" r="4" fill="#A855F7"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">AI-Assisted Dev</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Pair Coding &amp; Testing</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#2E1065"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#C084FC">METHOD</text>
+    </g>
+
+    <!-- Claude Code -->
+    <g transform="translate(14, 96)">
+      <rect width="194" height="46" rx="6" fill="#151A26" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#D97706"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">Claude Code</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">CLI Agentic Tools</text>
+      <rect x="138" y="14" width="48" height="16" rx="3" fill="#1E293B"/>
+      <text x="162" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#94A3B8">TOOL</text>
+    </g>
+
+    <!-- Antigravity -->
+    <g transform="translate(218, 96)">
+      <rect width="204" height="46" rx="6" fill="#151A26" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="20" cy="23" r="4" fill="#38BDF8"/>
+      <text x="32" y="21" class="font-sans" font-size="12" font-weight="bold" fill="#F8FAFC">Antigravity</text>
+      <text x="32" y="34" class="font-mono" font-size="9" fill="#94A3B8">Agentic IDE &amp; Workflows</text>
+      <rect x="148" y="14" width="48" height="16" rx="3" fill="#1E293B"/>
+      <text x="172" y="25" text-anchor="middle" class="font-mono" font-size="8" fill="#94A3B8">TOOL</text>
+    </g>
+  </g>
+</svg>
