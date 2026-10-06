@@ -1,240 +1,156 @@
 <p align="center">
-  <img src="assets/readme/hero-3d.svg" alt="Tran An Phuc — 3D AI Developer Workspace" width="100%" />
+  <img src="assets/readme/hero-banner.svg" alt="Tran An Phuc — Full-Stack Developer" width="100%" />
 </p>
 
 <p align="center">
   <a href="mailto:anphuctran24@gmail.com">
-    <img src="assets/readme/btn-email.svg" alt="Email" height="38" />
+    <img src="https://img.shields.io/badge/Email-anphuctran24%40gmail.com-06B6D4?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://github.com/anphuctran2005">
-    <img src="assets/readme/btn-github.svg" alt="GitHub" height="38" />
+    <img src="https://img.shields.io/badge/GitHub-anphuctran2005-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://www.facebook.com/anphuctran05">
-    <img src="assets/readme/btn-facebook.svg" alt="Facebook" height="38" />
+    <img src="https://img.shields.io/badge/Facebook-anphuctran05-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
-</p>
-
-<p align="center">
+  &nbsp;
   <a href="https://anphuctran2005.github.io/anphuctran2005/">
-    <img src="https://img.shields.io/badge/🎮_LAUNCH_LIVE_3D_WEBGL_WORKSPACE-Three.js_%7C_OrbitControls-7C3AED?style=for-the-badge&logo=three.js&logoColor=06B6D4" alt="Launch 3D WebGL Workspace" />
+    <img src="https://img.shields.io/badge/Interactive_3D-WebGL_Workspace-7C3AED?style=flat-square&logo=three.js&logoColor=white" alt="3D Workspace" />
   </a>
 </p>
 
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
+---
 
-## 🎮 // 3D MODELS &amp; INTERACTIVE WORKSPACE
+### 👨‍💻 About Me
 
-> **Real 3D Geometric Meshes (.STL / .OBJ / WebGL)** — Click any model below to open GitHub's native interactive 3D viewer (pan, zoom, orbit in 3D).
+I am a **Full-Stack Software Developer** specializing in the **JavaScript / TypeScript** ecosystem, backed by hands-on enterprise software engineering experience with **C# / ASP.NET Core** and relational databases.
+
+- 💼 **Enterprise Experience:** Built internal production software at **Quang Viet Long An Company**, including workflow automation, database design, and employee proposal systems.
+- 🎯 **Primary Direction:** Full-stack web applications using **TypeScript, React, Next.js, Node.js, and PostgreSQL**.
+- 🏗️ **Architectural Mindset:** Emphasize Clean Architecture, strong typing, relational data integrity, and API contract design.
+- ⚡ **Productivity:** Pragmatically adopt modern developer workflows (including AI-assisted tools for test generation, boilerplate acceleration, and debugging) while maintaining strict human ownership and deep code comprehension.
+
+---
+
+### 💼 Enterprise Experience &amp; Professional Background
+
+#### Software Developer · Enterprise Internal Systems *(Quang Viet Long An Company)*
+- **Core Stack:** `C#` · `ASP.NET Core` · `SQL Server` · `Dapper` · `Windows Services` · `REST API`
+- **Key Project — Improvement Proposal System (Kaizen Platform):**
+  - Designed and developed a company-wide web system to replace manual paper proposals with an automated digital workflow.
+  - Implemented multi-tier departmental approval hierarchies, audit trails, and status notifications.
+  - Engineered relational database schemas in SQL Server with indexed views and transaction isolation to support concurrent operational reviews.
+- **Enterprise Foundation as an Asset:**
+  - Experience in an enterprise manufacturing environment instilled deep discipline in transaction safety, schema migrations, domain modeling, and long-term maintainability.
+  - This foundation directly elevates how I architect modern **TypeScript**, **Node.js**, and **PostgreSQL** applications today.
+
+---
+
+### 🛠️ Technical Stack &amp; Skills
 
 <table>
   <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="assets/models/ai-core.stl">
-        <img src="assets/models/ai-core-3d-rotating.webp" alt="3D AI Core (Actual 3D Mesh)" width="320" />
-      </a>
-      <br />
-      <strong>3D AI Core Nucleus</strong>
-      <br />
-      <sub>Crystalline core with orbital gimbal rings &amp; tech satellites</sub>
-      <br /><br />
-      <a href="assets/models/ai-core.stl">🎮 <strong>Open in GitHub 3D Viewer (.stl)</strong></a>
-      &nbsp;·&nbsp;
-      <a href="assets/models/ai-core.obj">📦 <strong>Source (.obj)</strong></a>
+    <td width="50%" valign="top">
+      <h4>🌐 Frontend Development</h4>
+      <ul>
+        <li><strong>Languages:</strong> TypeScript, JavaScript (ESNext)</li>
+        <li><strong>Frameworks:</strong> React, Next.js (App Router, SSR, SSG)</li>
+        <li><strong>Styling &amp; UI:</strong> Tailwind CSS, HTML5, CSS3, Responsive Design</li>
+        <li><strong>State &amp; Architecture:</strong> Component-driven design, React Hooks, Client/Server boundary separation</li>
+      </ul>
     </td>
-    <td align="center" width="50%" valign="top">
-      <a href="assets/models/developer-workspace.stl">
-        <img src="assets/models/developer-workspace-3d-rotating.webp" alt="3D Developer Workstation (Actual 3D Mesh)" width="320" />
-      </a>
-      <br />
-      <strong>3D Developer Workstation</strong>
-      <br />
-      <sub>Curved triple monitor rig, cyber console &amp; compute tower</sub>
-      <br /><br />
-      <a href="assets/models/developer-workspace.stl">🎮 <strong>Open in GitHub 3D Viewer (.stl)</strong></a>
-      &nbsp;·&nbsp;
-      <a href="assets/models/developer-workspace.obj">📦 <strong>Source (.obj)</strong></a>
+    <td width="50%" valign="top">
+      <h4>⚙️ Backend &amp; APIs</h4>
+      <ul>
+        <li><strong>Runtimes &amp; Frameworks:</strong> Node.js, Express, RESTful API design</li>
+        <li><strong>Enterprise Stack:</strong> C#, ASP.NET Core Web API, Dapper, Entity Framework</li>
+        <li><strong>Architecture:</strong> Layered Architecture, Repository Pattern, Dependency Injection</li>
+        <li><strong>Security &amp; Auth:</strong> JWT, Role-based Access Control (RBAC), secure password hashing</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🗄️ Databases &amp; Storage</h4>
+      <ul>
+        <li><strong>Relational DBMS:</strong> PostgreSQL, Microsoft SQL Server</li>
+        <li><strong>Database Skills:</strong> Relational schema modeling, foreign key constraints, indexing strategies</li>
+        <li><strong>Data Access:</strong> Dapper (High-performance micro-ORM), parameterized SQL, ACID transactions</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧰 DevOps &amp; Engineering Workflow</h4>
+      <ul>
+        <li><strong>Version Control:</strong> Git, GitHub (Feature branching, PR reviews, Actions CI/CD)</li>
+        <li><strong>Containers &amp; Tools:</strong> Docker, Docker Compose, Linux CLI, VS Code</li>
+        <li><strong>Engineering Practices:</strong> Clean Code, refactoring, unit testing, documentation</li>
+        <li><strong>Modern Workflows:</strong> AI-assisted coding &amp; agentic tools for rapid prototyping and test generation</li>
+      </ul>
     </td>
   </tr>
 </table>
 
-<p align="center">
-  <small>
-    📦 <em>Additional 3D Models in repository:</em>
-    <a href="assets/models/tech-matrix.stl"><strong>[3D Tech Matrix .stl]</strong></a> ·
-    <a href="assets/models/tech-matrix.obj"><strong>[3D Tech Matrix .obj]</strong></a> ·
-    <a href="assets/models/cyber-materials.mtl"><strong>[Cyber Materials .mtl]</strong></a>
-  </small>
-</p>
+---
 
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
+### 🚀 Featured Projects
 
-## 01 // DEVELOPER IDENTITY
-
-<p align="center">
-  <img src="assets/readme/developer-profile-3d.svg" alt="Developer Profile Matrix" width="100%" />
-</p>
-
-I am a **Full-Stack Developer** focused on building production-grade web systems within the **JavaScript / TypeScript** ecosystem.
-
-- **Primary Stack:** TypeScript, JavaScript, React, Next.js, Node.js, and PostgreSQL.
-- **Enterprise Heritage:** Real-world engineering experience with C#, ASP.NET Core, SQL Server, and Dapper.
-- **AI-Augmented Engineering:** Leveraging autonomous agents and AI tooling to accelerate delivery while maintaining complete code comprehension and architectural integrity.
-- **Methodology:** Practical, project-centric development where maintainability, clean architecture, and business impact come first.
-
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
-
-## 02 // TECH STACK ARCHITECTURE
-
-<p align="center">
-  <img src="assets/readme/tech-stack-3d.svg" alt="Tech Stack Architecture" width="100%" />
-</p>
-
-| Domain | Core Technologies &amp; Practices | Primary Focus |
-| :--- | :--- | :--- |
-| **Frontend** | `JavaScript (ESNext)` · `TypeScript` · `React` · `Next.js` · `HTML5` · `CSS3` | Modern SPA/SSR architectures, responsive interfaces, strict typing |
-| **Backend &amp; Data** | `Node.js` · `PostgreSQL` · `RESTful APIs` · `System Architecture` | Relational data modeling, ACID transactions, modular clean code |
-| **Tooling &amp; Platform** | `Git` · `GitHub Actions` · `Docker` · `VS Code` · `Linux CLI` | Reproducible containers, automated workflows, version control |
-| **AI Development** | `AI Agents` · `AI-Assisted Coding` · `Claude Code` · `Antigravity` | Agentic task orchestration, rapid prototyping, test automation |
-
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
-
-## 03 // CURRENT FOCUS &amp; TRAJECTORY
-
-<p align="center">
-  <img src="assets/readme/focus-pipeline-3d.svg" alt="Current Focus Progression Pipeline" width="100%" />
-</p>
-
-My technical trajectory is deliberately structured from foundational language mastery to scalable cloud services and intelligent systems:
-
-```
-JavaScript ──► TypeScript ──► React / Next.js ──► Node.js
-                                                    │
-SaaS / Automation ◄── AI Agents ◄── System Design ◄── PostgreSQL
-```
-
-I am focused on end-to-end full-stack engineering: defining domain boundaries, implementing resilient backend services, crafting high-performance frontend interfaces, and utilizing AI agents to eliminate development friction.
-
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
-
-## 04 // FEATURED PROJECTS
-
-<p align="center">
-  <img src="assets/readme/projects-3d.svg" alt="Featured Systems and Projects" width="100%" />
-</p>
-
-### 📱 [Productivity Application](https://github.com/anphuctran2005/ProductivityApp)
+#### 📱 [Productivity Application](https://github.com/anphuctran2005/ProductivityApp)
 > **Full-Stack Task &amp; Workflow Platform**
-- **Architecture:** Multi-layered clean architecture separating presentation, domain, and data persistence layers.
-- **Capabilities:** Task management, secure JWT authentication, API contract design, and relational database schema modeling.
+- **Overview:** A complete multi-tier application designed to practice clean architecture and modern full-stack workflows.
+- **Technical Highlights:** Cross-platform React Native client paired with a modular ASP.NET Core Web API, PostgreSQL persistence layer via Dapper micro-ORM, and containerized Docker environment.
 - **Technologies:** `React Native` · `TypeScript` · `ASP.NET Core` · `PostgreSQL` · `Dapper` · `Docker`
-- **Source:** [`github.com/anphuctran2005/ProductivityApp`](https://github.com/anphuctran2005/ProductivityApp)
+- **Repository:** [`anphuctran2005/ProductivityApp`](https://github.com/anphuctran2005/ProductivityApp)
 
----
-
-### 🎵 [Music Mashup Web Application](https://github.com/anphuctran2005/audio-mixer-poc)
-> **In-Browser Audio Engine &amp; Creative Multi-Track Mixing**
-- **Architecture:** Interactive client-side audio pipeline utilizing the HTML5 Web Audio API.
-- **Capabilities:** Multi-channel audio synchronization, real-time waveform playback controls, and client-side processing.
+#### 🎵 [Music Mashup Web Application](https://github.com/anphuctran2005/audio-mixer-poc)
+> **Interactive In-Browser Audio Mixing Engine**
+- **Overview:** An experimental web application demonstrating complex client-side audio manipulation, real-time multi-track playback, and synchronized timeline controls.
+- **Technical Highlights:** Leverages the HTML5 Web Audio API for custom buffer routing, frequency analysis, and interactive audio playback controls without external heavyweight libraries.
 - **Technologies:** `React` · `JavaScript` · `TypeScript` · `Node.js` · `Web Audio API`
-- **Source:** [`github.com/anphuctran2005/audio-mixer-poc`](https://github.com/anphuctran2005/audio-mixer-poc)
+- **Repository:** [`anphuctran2005/audio-mixer-poc`](https://github.com/anphuctran2005/audio-mixer-poc)
 
----
-
-### 🎧 [Smart TOEIC 4-Skills](https://github.com/anphuctran2005/Learn-TOEIC)
-> **Structured English Exam Preparation &amp; Assessment Platform**
-- **Architecture:** Modular learning platform optimized for interactive test simulations and practice analytics.
-- **Capabilities:** Structured question repositories, audio playback test flows, progress assessment, and relational storage.
+#### 🎧 [Smart TOEIC 4-Skills](https://github.com/anphuctran2005/Learn-TOEIC)
+> **Structured English Assessment &amp; Learning Platform**
+- **Overview:** An interactive educational web application designed for structured English exam preparation with integrated assessment modules.
+- **Technical Highlights:** Modular question bank architecture, synchronized audio listening tests, relational score tracking, and clean component state management.
 - **Technologies:** `React` · `TypeScript` · `Node.js` · `PostgreSQL`
-- **Source:** [`github.com/anphuctran2005/Learn-TOEIC`](https://github.com/anphuctran2005/Learn-TOEIC)
+- **Repository:** [`anphuctran2005/Learn-TOEIC`](https://github.com/anphuctran2005/Learn-TOEIC)
+
+#### 🗃️ [PromptVault](https://github.com/anphuctran2005/PromptVault)
+> **Centralized Prompt Management &amp; Versioning System**
+- **Overview:** A full-stack web application built to store, organize, version, and optimize structured prompt templates for LLM integrations and development workflows.
+- **Technical Highlights:** React frontend with responsive UI, ASP.NET Core Web API backend, schema versioning, and search capabilities.
+- **Technologies:** `React` · `ASP.NET Core` · `SQL Server` · `REST API`
+- **Repository:** [`anphuctran2005/PromptVault`](https://github.com/anphuctran2005/PromptVault)
 
 ---
 
-### ⚙️ Improvement Proposal System (Kaizen)
-> **Internal Enterprise Workflow Automation &amp; Approval Engine**
-- **Architecture:** Enterprise production application deployed to replace manual paper proposals with an automated system.
-- **Capabilities:** Multi-tier departmental approval hierarchies, audit trails, proposal status tracking, and KPI reporting.
-- **Technologies:** `C#` · `ASP.NET Core` · `SQL Server` · `Dapper`
-- **Status:** *Production Enterprise Application (Quang Viet Long An)*
+### 💡 Engineering Principles
 
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
+```
+Problem Definition ──► Domain Modeling ──► Implementation ──► Automated Testing ──► Code Review ──► Delivery
+```
 
-## 05 // ENTERPRISE EXPERIENCE
+1. **Understand Before Automating:** Deeply clarify business requirements and data flow before writing the first line of code.
+2. **Type Safety Across Boundaries:** Strict typing (TypeScript &amp; C#) eliminates an entire class of runtime errors and simplifies long-term refactoring.
+3. **Database-First Integrity:** Business rules belong in thoughtful data constraints, transactions, and explicit domain boundaries.
+4. **Pragmatic AI Adoption:** Use AI tools to accelerate repetitive tasks (boilerplate, test cases, regex, syntax lookups), but always maintain 100% architectural comprehension and code ownership.
 
-<p align="center">
-  <img src="assets/readme/enterprise-exp-3d.svg" alt="Enterprise Software Foundation" width="100%" />
-</p>
+---
 
-> *I have practical enterprise software experience and am now extending that foundation into the modern JavaScript ecosystem.*
+### 🎮 Interactive 3D Assets
 
-Working with **C#**, **ASP.NET Core**, **SQL Server**, and **Dapper** in an enterprise production environment provided a rigorous foundation:
+For viewers interested in 3D graphics and WebGL, this repository includes interactive 3D models:
 
-- **Data Integrity &amp; Transactions:** Designing strict relational models, query performance optimization, and ACID guarantees.
-- **Layered Architecture:** Clear decoupling between domain logic, data access, and API controllers.
-- **Maintainability:** Writing defensive, typed code that enterprise teams can operate and maintain over multi-year lifecycles.
+- 📦 **Native 3D Viewers (Click to inspect in GitHub's 3D viewer):**
+  - [`assets/models/ai-core.stl`](assets/models/ai-core.stl) — Floating AI Core &amp; Orbital Gimbal Model
+  - [`assets/models/developer-workspace.stl`](assets/models/developer-workspace.stl) — 3D Developer Workstation Model
+  - [`assets/models/tech-matrix.stl`](assets/models/tech-matrix.stl) — 3D Modular Architecture Hub
+- 🌐 **Live WebGL Application:** [**Launch Interactive 3D Workspace**](https://anphuctran2005.github.io/anphuctran2005/) *(Three.js + OrbitControls)*
 
-This background is an intentional asset: it informs how I design **TypeScript**, **Node.js**, and **PostgreSQL** architectures today.
+---
 
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
-
-## 06 // ENGINEERING PHILOSOPHY
-
-<p align="center">
-  <img src="assets/readme/ai-pipeline-3d.svg" alt="Engineering Philosophy &amp; AI Pipeline" width="100%" />
-</p>
-
-> **"Use AI to accelerate development, but understand the code well enough to maintain it without AI."**
-
-I treat AI as an engineering amplifier rather than an oracle:
-
-1. **Problem Definition:** Establish unambiguous domain requirements before writing any code.
-2. **Explore Alternatives:** Use AI models to quickly survey architectural trade-offs and edge cases.
-3. **Intentional Design:** Define data models, interfaces, and boundary contracts manually.
-4. **Implementation:** Pair with AI tools for rapid scaffolding and syntax acceleration.
-5. **Code Review &amp; Audit:** Review every generated line with rigorous engineering scrutiny.
-6. **Automated Testing:** Verify behavior through unit, integration, and contract tests.
-7. **Refactoring:** Simplify abstractions and eliminate unnecessary complexity.
-8. **Documentation:** Produce clear technical documentation for future maintainers.
-
-The primary objective is never raw line count—it is building reliable systems whose internal mechanics are thoroughly understood.
-
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
-
-## 07 // AI DEVELOPMENT IN PRACTICE
-
-<p align="center">
-  <img src="assets/readme/ai-core-3d.svg" alt="AI Development in Practice" width="100%" />
-</p>
-
-*Exploring practical AI-assisted software development and AI-powered applications.*
-
-- **AI-Assisted Development:** Utilizing modern LLMs as interactive pair programmers for debugging, design validation, and architectural prototyping.
-- **Autonomous Dev Agents:** Incorporating command-line agentic tooling (such as Claude Code and Antigravity) for multi-file refactoring, test generation, and automated code review.
-- **Developer Productivity:** Automating boilerplate setup, CI script writing, and documentation generation to maximize focus on core business logic.
-- **LLM-Powered Applications:** Exploring real-world applications (such as [PromptVault](https://github.com/anphuctran2005/PromptVault)) that store, version, and orchestrate structured prompts for LLM integrations.
-
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
-
-## 08 // GITHUB ACTIVITY &amp; METRICS
+### 📈 GitHub Statistics &amp; Activity
 
 <div align="center">
   <a href="https://github.com/anphuctran2005">
@@ -264,28 +180,14 @@ The primary objective is never raw line count—it is building reliable systems 
   />
 </div>
 
-<p align="center">
-  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
-</p>
+---
 
-## 09 // CONNECT &amp; TRANSMISSION
+### 📫 Get in Touch
 
-<p align="center">
-  <a href="mailto:anphuctran24@gmail.com">
-    <img src="assets/readme/btn-email.svg" alt="Email" height="42" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/anphuctran2005">
-    <img src="assets/readme/btn-github.svg" alt="GitHub" height="42" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.facebook.com/anphuctran05">
-    <img src="assets/readme/btn-facebook.svg" alt="Facebook" height="42" />
-  </a>
-</p>
-
-<br />
+- 📧 **Email:** [anphuctran24@gmail.com](mailto:anphuctran24@gmail.com)
+- 🐙 **GitHub:** [github.com/anphuctran2005](https://github.com/anphuctran2005)
+- 💬 **Facebook:** [facebook.com/anphuctran05](https://www.facebook.com/anphuctran05)
 
 <p align="center">
-  <img src="assets/readme/footer-3d.svg" alt="Build. Architect. Refine. Deliver." width="100%" />
+  <sub>Designed &amp; Maintained by <strong>Tran An Phuc</strong> · 2026</sub>
 </p>

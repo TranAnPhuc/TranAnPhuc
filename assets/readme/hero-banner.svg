@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="banner-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090D"/>
+      <stop offset="60%" stop-color="#0F111A"/>
+      <stop offset="100%" stop-color="#08090D"/>
+    </linearGradient>
+
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="badge-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+
+    <pattern id="grid-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94A3B8" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="940" height="230" rx="14" fill="url(#banner-bg)" stroke="#7C3AED" stroke-opacity="0.25" stroke-width="1.2"/>
+  <rect width="940" height="230" rx="14" fill="url(#grid-dots)"/>
+
+  <!-- Top Status Bar -->
+  <g class="font-mono" font-size="11" letter-spacing="1">
+    <rect x="28" y="24" width="160" height="22" rx="11" fill="#151A26" stroke="#06B6D4" stroke-width="0.8" stroke-opacity="0.4"/>
+    <circle cx="42" cy="35" r="3.5" fill="#10B981"/>
+    <text x="54" y="38" fill="#F8FAFC" font-size="10" font-weight="600">FULL-STACK ENGINEER</text>
+
+    <text x="912" y="38" text-anchor="end" fill="#94A3B8">
+      VIETNAM <tspan fill="#7C3AED">//</tspan> <tspan fill="#38BDF8">github.com/anphuctran2005</tspan>
+    </text>
+  </g>
+
+  <!-- Main Identity Content -->
+  <g transform="translate(28, 70)">
+    <text x="0" y="34" class="font-sans" font-size="34" font-weight="900" fill="url(#name-grad)" letter-spacing="1">
+      TRAN AN PHUC
+    </text>
+
+    <text x="0" y="58" class="font-sans" font-size="14" font-weight="600" fill="#06B6D4" letter-spacing="1.5">
+      Full-Stack Developer &amp; Enterprise Software Engineer
+    </text>
+
+    <text x="0" y="80" class="font-sans" font-size="12.5" fill="#94A3B8">
+      Building scalable web applications, robust backend APIs, and data-driven systems.
+    </text>
+  </g>
+
+  <!-- Tech Badges Strip -->
+  <g transform="translate(28, 178)" class="font-mono" font-size="10" font-weight="600">
+    <!-- TS -->
+    <rect x="0" y="0" width="102" height="26" rx="6" fill="#151A26" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="51" y="17" text-anchor="middle" fill="#38BDF8">TypeScript</text>
+
+    <!-- React -->
+    <rect x="112" y="0" width="76" height="26" rx="6" fill="#151A26" stroke="#06B6D4" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="150" y="17" text-anchor="middle" fill="#06B6D4">React</text>
+
+    <!-- Next.js -->
+    <rect x="198" y="0" width="86" height="26" rx="6" fill="#151A26" stroke="#F8FAFC" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="241" y="17" text-anchor="middle" fill="#F8FAFC">Next.js</text>
+
+    <!-- Node.js -->
+    <rect x="294" y="0" width="86" height="26" rx="6" fill="#151A26" stroke="#10B981" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="337" y="17" text-anchor="middle" fill="#10B981">Node.js</text>
+
+    <!-- PostgreSQL -->
+    <rect x="390" y="0" width="112" height="26" rx="6" fill="#151A26" stroke="#A855F7" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="446" y="17" text-anchor="middle" fill="#C084FC">PostgreSQL</text>
+
+    <!-- ASP.NET Core -->
+    <rect x="512" y="0" width="130" height="26" rx="6" fill="#1E1430" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="577" y="17" text-anchor="middle" fill="#C084FC">ASP.NET Core</text>
+
+    <!-- SQL Server -->
+    <rect x="652" y="0" width="110" height="26" rx="6" fill="#151A26" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="707" y="17" text-anchor="middle" fill="#38BDF8">SQL Server</text>
+  </g>
+</svg>
