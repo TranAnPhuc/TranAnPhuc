@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Tran An Phuc</h1>
 
 <p align="center">
-  <strong>Software Engineer · Full-stack Web Developer · AI-assisted Developer</strong>
+  <strong>Full-stack Developer · JavaScript · TypeScript · React · Node.js</strong>
 </p>
 
 <p align="center">
-  Building practical software, learning through real projects, and continuously improving my engineering skills.
+  Building practical software, learning through real projects, and exploring AI-assisted development.
 </p>
 
 <p align="center">
@@ -20,67 +20,70 @@
   </a>
 </p>
 
----
+👨‍💻 About Me
 
-## 👨‍💻 About Me
+I'm a Full-stack Developer focused on the JavaScript / TypeScript ecosystem.
 
-I'm a Software Engineer and Full-stack Web Developer with hands-on experience building and maintaining internal web applications.
+I enjoy turning real-world problems into practical software and learning through projects rather than isolated tutorials.
 
-I enjoy turning real-world business problems into practical software instead of building projects only for demonstration.
+My current direction is centered around:
 
-My current development journey focuses on combining:
+⚛️ React and modern frontend development
 
-- 🏗️ Backend engineering
-- ⚛️ Modern frontend development
-- 📱 Cross-platform mobile development
-- 🤖 AI-assisted software development
-- 🧠 Software engineering practices and system design
+🟦 TypeScript and JavaScript
 
-I'm continuously improving my ability to understand a problem, design a solution, implement it, test it, deploy it, and maintain it.
+🟢 Node.js backend development
 
----
+🗄️ PostgreSQL and relational database design
 
-## 💡 My Development Philosophy
+🤖 AI-assisted development and AI Agents
 
-> **Use AI to accelerate development, but understand the code well enough to maintain it without AI.**
+🧠 Clean Code, architecture, testing, and maintainability
+
+I also have hands-on enterprise development experience with C#, ASP.NET Core, SQL Server, and Dapper. I'm keeping that experience as a strong backend foundation while moving my primary development direction toward the modern JavaScript ecosystem.
+
+💡 Development Philosophy
+
+Use AI to accelerate development, but understand the code well enough to maintain it without AI.
 
 I use AI as a development partner for:
 
-- Exploring solutions
-- Generating and modifying code
-- Refactoring
-- Debugging
-- Writing documentation
-- Learning unfamiliar technologies
+Exploring solutions
 
-However, the goal is not simply to generate more code.
+Generating and modifying code
 
-The goal is to understand **why the code works, why the architecture is designed that way, and how to maintain it when requirements change.**
+Refactoring
 
----
+Debugging
 
-## 🛠️ Tech Stack
+Documentation
+
+Learning unfamiliar technologies
+
+The goal is not simply to generate more code.
+
+The goal is to understand why the code works, why the architecture makes sense, and how to maintain it when requirements change.
+
+🛠️ Tech Stack
 
 <table>
 <tr>
-
 <td width="50%" valign="top">
 
-### 💻 Languages
+⚛️ Frontend
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="42" alt="C#" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="42" alt="JavaScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="42" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="42" alt="Python" />
-</p>
-
-### 🎨 Frontend
-
-<p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" alt="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="42" alt="Next.js" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="42" alt="HTML5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="42" alt="CSS3" />
+</p>
+
+🎨 UI & Web
+
+<p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="42" alt="Bootstrap" />
 </p>
 
@@ -88,30 +91,27 @@ The goal is to understand **why the code works, why the architecture is designed
 
 <td width="50%" valign="top">
 
-### ⚙️ Backend & Database
+🟢 Backend & Database
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="42" alt=".NET" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="42" alt="Node.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="42" alt="MySQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="42" alt="PostgreSQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="42" alt="MySQL" />
 </p>
 
-### 📱 Mobile
+📱 Mobile
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" alt="React Native" />
 </p>
 
 </td>
-
 </tr>
 
 <tr>
-
 <td width="50%" valign="top">
 
-### 🛠️ Tools & Workflow
+🛠️ Tools & Workflow
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="42" alt="Git" />
@@ -120,43 +120,178 @@ The goal is to understand **why the code works, why the architecture is designed
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="42" alt="VS Code" />
 </p>
 
-### 🔌 Development Practices
+🧠 Engineering Practices
 
-- RESTful API
-- Clean Code
-- Code Review
-- Refactoring
-- Database Design
-- System Documentation
+RESTful API
+
+Clean Code
+
+Refactoring
+
+Database Design
+
+Testing
+
+Documentation
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🤖 AI & Modern Development
+🤖 AI & Modern Development
 
 <p align="left">
   <img src="https://img.shields.io/badge/AI-assisted_Development-111827?style=flat-square" alt="AI-assisted Development" />
   <img src="https://img.shields.io/badge/AI_Agents-6C47FF?style=flat-square" alt="AI Agents" />
 </p>
 
-I'm exploring how AI can improve the software development lifecycle:
+Current interests:
 
-```text
-Problem
-   ↓
-Explore
-   ↓
-Design
-   ↓
-Implement
-   ↓
-Review
-   ↓
-Test
-   ↓
-Refactor
-   ↓
-Document
+AI Agents
 
-The objective is to use AI for leverage while keeping engineering judgment human-driven.
+LLM-powered applications
+
+AI-assisted coding workflows
+
+Developer productivity
+
+Automation
+
+</td>
+</tr>
+</table>
+
+🎯 Current Focus
+
+JavaScript / TypeScript
+        │
+        ├── React / Next.js
+        │
+        ├── Node.js
+        │
+        ├── PostgreSQL
+        │
+        └── AI-assisted Development
+
+I'm currently focusing on becoming a stronger full-stack developer by building complete applications from frontend to backend, database, deployment, and maintenance.
+
+🚀 Selected Projects
+
+📱 Productivity Application
+
+A full-stack productivity platform created to practice modern application architecture and project-based development.
+
+Focus: task management, authentication, API design, database modeling, clean architecture.
+
+Stack: React Native · TypeScript · ASP.NET Core · PostgreSQL · Dapper · Docker
+
+🎵 Music Mashup Web App
+
+An experimental web application exploring creative audio experiences by combining multiple songs into a new mashup.
+
+Focus: audio processing, user interaction, creative tooling, and modern JavaScript development.
+
+Stack: React · TypeScript · Node.js · Web Audio
+
+🎧 Smart TOEIC 4-Skills
+
+A project focused on building a structured learning experience for English test preparation.
+
+Focus: content organization, interactive learning flows, backend APIs, and data-driven features.
+
+Stack: React · TypeScript · Node.js · PostgreSQL
+
+🧭 Learning Direction
+
+My current roadmap:
+
+JavaScript
+    ↓
+TypeScript
+    ↓
+React
+    ↓
+Next.js
+    ↓
+Node.js
+    ↓
+PostgreSQL
+    ↓
+System Design
+    ↓
+AI Agents
+    ↓
+SaaS / Automation
+
+The long-term goal is to become an engineer who can:
+
+Understand the problem → Design the solution → Build it → Test it → Deploy it → Maintain it
+
+🏗️ What I Like Building
+
+Developer productivity tools
+
+Internal business applications
+
+SaaS products
+
+Automation tools
+
+AI-powered applications
+
+Interactive web experiences
+
+Mobile applications
+
+I especially enjoy projects where software replaces repetitive manual work with a better workflow.
+
+📈 GitHub Activity
+
+<div align="center">
+
+<img
+ src="https://github-stats-extended.vercel.app/api?username=anphuctran2005&show_icons=true&theme=dracula&count_private=true"
+ height="170"
+ alt="GitHub Statistics"
+/>
+
+<img
+ src="https://github-stats-extended.vercel.app/api/top-langs/?username=anphuctran2005&layout=compact&card_width=320&langs_count=6&theme=dracula"
+ height="170"
+ alt="Top Languages"
+/>
+
+</div>
+
+🐍 Contribution Activity
+
+<div align="center">
+
+<img
+ src="https://raw.githubusercontent.com/anphuctran2005/anphuctran2005/output/github-contribution-grid-snake.svg"
+ alt="GitHub Contribution Snake"
+/>
+
+</div>
+
+📫 Connect With Me
+
+<p align="left">
+  <a href="mailto:anphuctran24@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+
+  <a href="https://github.com/anphuctran2005">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
+  <a href="https://www.facebook.com/anphuctran05">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+</p>
+
+<div align="center">
+
+Build. Learn. Break. Fix. Improve. Repeat.
+
+</div>
