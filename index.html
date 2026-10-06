@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tran An Phuc — 3D AI Developer Workspace</title>
+  <meta name="description" content="Interactive 3D WebGL Developer Workspace for Tran An Phuc (anphuctran2005). Explore 3D models, tech stack architecture, and AI-assisted workflows." />
+  
+  <!-- Modern Monospace & Sans Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-void: #08090D;
+      --bg-surface: #11131A;
+      --accent-violet: #7C3AED;
+      --accent-cyan: #06B6D4;
+      --accent-sky: #38BDF8;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --border-subtle: rgba(124, 58, 237, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      background-color: var(--bg-void);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #webgl-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    /* Holographic Cyber HUD Overlay */
+    .hud-layer {
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 24px;
+    }
+
+    .interactive-element {
+      pointer-events: auto;
+    }
+
+    /* Header Bar */
+    .hud-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .brand-block {
+      background: rgba(17, 19, 26, 0.85);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 14px 20px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    }
+
+    .telemetry-code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--accent-cyan);
+      letter-spacing: 2px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .telemetry-led {
+      width: 6px;
+      height: 6px;
+      background: #10B981;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #10B981;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .brand-title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #38BDF8 50%, #A855F7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-subtitle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+      margin-top: 2px;
+    }
+
+    /* Top Right Controls */
+    .controls-panel {
+      display: flex;
+      gap: 8px;
+      background: rgba(17, 19, 26, 0.85);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 8px;
+      backdrop-filter: blur(12px);
+    }
+
+    .hud-btn {
+      background: #1A1E2E;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--text-main);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .hud-btn:hover {
+      background: var(--accent-violet);
+      border-color: var(--accent-cyan);
+      color: #FFFFFF;
+      box-shadow: 0 0 16px rgba(124, 58, 237, 0.4);
+    }
+
+    .hud-btn.active {
+      background: linear-gradient(135deg, var(--accent-violet), #4C1D95);
+      border-color: var(--accent-cyan);
+      color: #FFFFFF;
+    }
+
+    /* Bottom HUD Bar */
+    .hud-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 20px;
+    }
+
+    .model-selector {
+      display: flex;
+      gap: 8px;
+      background: rgba(17, 19, 26, 0.85);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 8px;
+      backdrop-filter: blur(12px);
+    }
+
+    .model-btn {
+      background: #151824;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .model-btn:hover {
+      color: var(--text-main);
+      border-color: var(--accent-cyan);
+    }
+
+    .model-btn.active {
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.8), rgba(6, 182, 212, 0.8));
+      border-color: #38BDF8;
+      color: #FFFFFF;
+      box-shadow: 0 0 20px rgba(6, 182, 212, 0.35);
+    }
+
+    /* Details Flyout Drawer */
+    .details-card {
+      background: rgba(17, 19, 26, 0.9);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px 20px;
+      backdrop-filter: blur(14px);
+      max-width: 360px;
+      font-size: 12px;
+      line-height: 1.6;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+    }
+
+    .details-card h3 {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--accent-cyan);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .details-card p {
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .link-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .hud-link {
+      color: var(--accent-sky);
+      text-decoration: none;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      border-bottom: 1px dashed var(--accent-sky);
+      transition: color 0.2s;
+    }
+
+    .hud-link:hover {
+      color: #FFFFFF;
+      border-bottom-style: solid;
+    }
+
+    /* Interaction Hint */
+    .interaction-hint {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: rgba(148, 163, 184, 0.4);
+      letter-spacing: 2px;
+      pointer-events: none;
+      transition: opacity 1s;
+    }
+
+    @media (max-width: 768px) {
+      .hud-header { flex-direction: column; }
+      .hud-footer { flex-direction: column; align-items: stretch; }
+      .model-selector { flex-direction: column; }
+    }
+  </style>
+
+  <!-- Import Three.js & OrbitControls via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/loaders/STLLoader.js"></script>
+</head>
+<body>
+  <div id="webgl-canvas"></div>
+
+  <!-- Cyber HUD UI Layer -->
+  <div class="hud-layer">
+    <!-- Top Bar -->
+    <header class="hud-header">
+      <div class="brand-block interactive-element">
+        <div class="telemetry-code">
+          <span class="telemetry-led"></span>
+          SYS.RUNNING // 3D WORKSPACE ENGINE
+        </div>
+        <h1 class="brand-title">TRAN AN PHUC</h1>
+        <div class="brand-subtitle">FULL-STACK DEVELOPER · 3D INTERACTIVE CORE</div>
+      </div>
+
+      <div class="controls-panel interactive-element">
+        <button id="btn-autorotate" class="hud-btn active" title="Toggle Auto-Rotation">
+          <span>🔄</span> AUTO-ROTATE
+        </button>
+        <button id="btn-wireframe" class="hud-btn" title="Toggle Wireframe Mode">
+          <span>🌐</span> WIREFRAME
+        </button>
+        <button id="btn-reset" class="hud-btn" title="Reset Camera Perspective">
+          <span>🎯</span> RESET
+        </button>
+      </div>
+    </header>
+
+    <div class="interaction-hint" id="hint-text">
+      DRAG TO ROTATE 3D MESH · SCROLL TO ZOOM · RIGHT-CLICK TO PAN
+    </div>
+
+    <!-- Bottom Bar -->
+    <footer class="hud-footer">
+      <div class="model-selector interactive-element">
+        <button class="model-btn active" data-model="ai-core">
+          [01] 3D AI CORE
+        </button>
+        <button class="model-btn" data-model="workspace">
+          [02] 3D WORKSPACE
+        </button>
+        <button class="model-btn" data-model="matrix">
+          [03] 3D TECH MATRIX
+        </button>
+      </div>
+
+      <div class="details-card interactive-element" id="details-card">
+        <h3 id="card-title">3D AI Core</h3>
+        <p id="card-desc">
+          Central polyhedral computing nucleus surrounded by triple orbital gimbal rings and floating technology satellite modules (TypeScript, React, Node.js, PostgreSQL).
+        </p>
+        <div class="link-group">
+          <a href="https://github.com/anphuctran2005" target="_blank" class="hud-link">GITHUB PROFILE ↗</a>
+          <a href="assets/models/ai-core.stl" download class="hud-link">DOWNLOAD STL ↗</a>
+          <a href="assets/models/ai-core.obj" download class="hud-link">DOWNLOAD OBJ ↗</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // ================= THREE.JS 3D SCENE SETUP =================
+    const container = document.getElementById('webgl-canvas');
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x08090D);
+    scene.fog = new THREE.FogExp2(0x08090D, 0.045);
+
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100);
+    camera.position.set(0, 3, 9);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: "high-performance" });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.2;
+    container.appendChild(renderer.domElement);
+
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 1.2;
+    controls.maxDistance = 25;
+    controls.minDistance = 2;
+
+    // Fade out hint after first interaction
+    controls.addEventListener('start', () => {
+      const hint = document.getElementById('hint-text');
+      if (hint) hint.style.opacity = '0';
+    });
+
+    // ================= LIGHTING SYSTEM =================
+    const ambientLight = new THREE.AmbientLight(0x0e1322, 1.8);
+    scene.add(ambientLight);
+
+    const dirLightCyan = new THREE.DirectionalLight(0x06B6D4, 2.5);
+    dirLightCyan.position.set(8, 12, 8);
+    scene.add(dirLightCyan);
+
+    const pointLightPurple = new THREE.PointLight(0x7C3AED, 4.0, 30);
+    pointLightPurple.position.set(-6, -2, -4);
+    scene.add(pointLightPurple);
+
+    const pointLightSky = new THREE.PointLight(0x38BDF8, 3.0, 20);
+    pointLightSky.position.set(0, 4, -2);
+    scene.add(pointLightSky);
+
+    // ================= ENVIRONMENT: CYBER GRID & NEBULA =================
+    const gridHelper = new THREE.GridHelper(30, 60, 0x7C3AED, 0x1E293B);
+    gridHelper.position.y = -3.2;
+    gridHelper.material.opacity = 0.25;
+    gridHelper.material.transparent = true;
+    scene.add(gridHelper);
+
+    // Floating Cyber Particles
+    const particleCount = 280;
+    const particleGeometry = new THREE.BufferGeometry();
+    const particlePositions = new Float32Array(particleCount * 3);
+    for (let i = 0; i < particleCount * 3; i += 3) {
+      particlePositions[i] = (Math.random() - 0.5) * 22;
+      particlePositions[i+1] = (Math.random() - 0.5) * 14;
+      particlePositions[i+2] = (Math.random() - 0.5) * 22;
+    }
+    particleGeometry.setAttribute('position', new THREE.BufferAttribute(particlePositions, 3));
+    const particleMaterial = new THREE.PointsMaterial({
+      color: 0x06B6D4,
+      size: 0.07,
+      transparent: true,
+      opacity: 0.6
+    });
+    const particles = new THREE.Points(particleGeometry, particleMaterial);
+    scene.add(particles);
+
+    // ================= SHARED MATERIALS =================
+    let isWireframe = false;
+    const materialCyan = new THREE.MeshStandardMaterial({
+      color: 0x06B6D4,
+      roughness: 0.25,
+      metalness: 0.85,
+      emissive: 0x082F49,
+      emissiveIntensity: 0.3,
+      wireframe: isWireframe
+    });
+
+    const materialPurple = new THREE.MeshStandardMaterial({
+      color: 0x7C3AED,
+      roughness: 0.3,
+      metalness: 0.8,
+      emissive: 0x2E1065,
+      emissiveIntensity: 0.4,
+      wireframe: isWireframe
+    });
+
+    const materialGlassDark = new THREE.MeshStandardMaterial({
+      color: 0x11131A,
+      roughness: 0.1,
+      metalness: 0.9,
+      wireframe: isWireframe
+    });
+
+    // ================= 3D PROCEDURAL GEOMETRY BUILDERS =================
+    // Ensures instant rendering without any local CORS fetch errors on file://
+    
+    // Model 1: 3D AI Core Group
+    const groupAICore = new THREE.Group();
+    
+    // Polyhedral central crystals
+    const coreOcta1 = new THREE.Mesh(new THREE.OctahedronGeometry(1.4, 0), materialCyan);
+    const coreOcta2 = new THREE.Mesh(new THREE.OctahedronGeometry(0.9, 0), materialPurple);
+    const coreOcta3 = new THREE.Mesh(new THREE.OctahedronGeometry(0.5, 0), new THREE.MeshBasicMaterial({ color: 0xF8FAFC }));
+    groupAICore.add(coreOcta1);
+    groupAICore.add(coreOcta2);
+    groupAICore.add(coreOcta3);
+
+    // Gimbal Torus Rings
+    const ring1 = new THREE.Mesh(new THREE.TorusGeometry(2.3, 0.06, 16, 64), materialCyan);
+    ring1.rotation.x = Math.PI / 4;
+    ring1.rotation.y = Math.PI / 6;
+    groupAICore.add(ring1);
+
+    const ring2 = new THREE.Mesh(new THREE.TorusGeometry(2.9, 0.07, 16, 64), materialPurple);
+    ring2.rotation.x = -Math.PI / 3;
+    ring2.rotation.z = Math.PI / 5;
+    groupAICore.add(ring2);
+
+    const ring3 = new THREE.Mesh(new THREE.TorusGeometry(3.5, 0.05, 16, 64), materialCyan);
+    ring3.rotation.x = Math.PI / 2;
+    groupAICore.add(ring3);
+
+    // Pedestal Base
+    const baseCyl1 = new THREE.Mesh(new THREE.CylinderGeometry(2.0, 2.2, 0.4, 32), materialGlassDark);
+    baseCyl1.position.y = -2.6;
+    const baseCyl2 = new THREE.Mesh(new THREE.CylinderGeometry(1.4, 1.7, 0.3, 24), materialPurple);
+    baseCyl2.position.y = -2.25;
+    groupAICore.add(baseCyl1);
+    groupAICore.add(baseCyl2);
+
+    // Orbiting Satellite Cubes
+    const satellites = [
+      { pos: [-2.7, 1.2, 0.8], label: "TypeScript" },
+      { pos: [2.7, 1.4, -0.6], label: "React" },
+      { pos: [-2.3, -1.5, 1.2], label: "Node.js" },
+      { pos: [2.5, -1.3, -1.0], label: "PostgreSQL" }
+    ];
+    const satMeshes = [];
+    satellites.forEach(s => {
+      const satGroup = new THREE.Group();
+      satGroup.position.set(...s.pos);
+      const box = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.7, 0.7), materialGlassDark);
+      const border = new THREE.Mesh(new THREE.BoxGeometry(0.72, 0.72, 0.72), new THREE.MeshBasicMaterial({ color: 0x06B6D4, wireframe: true }));
+      const beacon = new THREE.Mesh(new THREE.OctahedronGeometry(0.18), materialPurple);
+      beacon.position.y = 0.6;
+      satGroup.add(box);
+      satGroup.add(border);
+      satGroup.add(beacon);
+      groupAICore.add(satGroup);
+      satMeshes.push(satGroup);
+    });
+
+    scene.add(groupAICore);
+
+    // Model 2: 3D Developer Workspace Group
+    const groupWorkspace = new THREE.Group();
+    groupWorkspace.visible = false;
+
+    // Desk Top
+    const deskTop = new THREE.Mesh(new THREE.BoxGeometry(5.8, 0.15, 2.6), materialGlassDark);
+    const deskBevel = new THREE.Mesh(new THREE.BoxGeometry(5.9, 0.04, 2.7), materialCyan);
+    deskBevel.position.y = 0.06;
+    const legLeft = new THREE.Mesh(new THREE.BoxGeometry(0.2, 2.6, 2.0), materialGlassDark);
+    legLeft.position.set(-2.5, -1.3, 0);
+    const legRight = legLeft.clone();
+    legRight.position.x = 2.5;
+
+    groupWorkspace.add(deskTop);
+    groupWorkspace.add(deskBevel);
+    groupWorkspace.add(legLeft);
+    groupWorkspace.add(legRight);
+
+    // Triple Curved Monitors
+    const monCenter = new THREE.Mesh(new THREE.BoxGeometry(2.6, 1.3, 0.08), materialGlassDark);
+    monCenter.position.set(0, 1.4, -0.6);
+    const monScreen = new THREE.Mesh(new THREE.PlaneGeometry(2.45, 1.15), new THREE.MeshBasicMaterial({ color: 0x06B6D4 }));
+    monScreen.position.set(0, 1.4, -0.55);
+    monCenter.add(monScreen);
+
+    const monLeft = new THREE.Mesh(new THREE.BoxGeometry(1.3, 1.2, 0.08), materialGlassDark);
+    monLeft.position.set(-1.9, 1.4, -0.3);
+    monLeft.rotation.y = Math.PI / 7;
+    const monRight = new THREE.Mesh(new THREE.BoxGeometry(1.3, 1.2, 0.08), materialGlassDark);
+    monRight.position.set(1.9, 1.4, -0.3);
+    monRight.rotation.y = -Math.PI / 7;
+
+    groupWorkspace.add(monCenter);
+    groupWorkspace.add(monLeft);
+    groupWorkspace.add(monRight);
+
+    // Mechanical Keyboard & Tower Rig
+    const keyboard = new THREE.Mesh(new THREE.BoxGeometry(1.4, 0.06, 0.5), materialPurple);
+    keyboard.position.set(-0.2, 0.1, 0.5);
+    const tower = new THREE.Mesh(new THREE.BoxGeometry(0.6, 1.4, 1.2), materialGlassDark);
+    tower.position.set(2.1, 0.8, 0.4);
+    groupWorkspace.add(keyboard);
+    groupWorkspace.add(tower);
+
+    scene.add(groupWorkspace);
+
+    // Model 3: 3D Tech Matrix Group
+    const groupMatrix = new THREE.Group();
+    groupMatrix.visible = false;
+
+    const matrixCoords = [
+      [-1.6, 1.1, 0],
+      [ 1.6, 1.1, 0],
+      [-1.6, -1.1, 0],
+      [ 1.6, -1.1, 0]
+    ];
+    matrixCoords.forEach((coords, idx) => {
+      const node = new THREE.Mesh(new THREE.BoxGeometry(1.3, 1.1, 1.3), idx % 2 === 0 ? materialCyan : materialPurple);
+      node.position.set(...coords);
+      const wire = new THREE.Mesh(new THREE.BoxGeometry(1.35, 1.15, 1.35), new THREE.MeshBasicMaterial({ color: 0xFFFFFF, wireframe: true }));
+      node.add(wire);
+      groupMatrix.add(node);
+    });
+    // Data Tubes
+    const tubeH1 = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 3.2, 16), materialGlassDark);
+    tubeH1.rotation.z = Math.PI / 2;
+    tubeH1.position.y = 1.1;
+    const tubeH2 = tubeH1.clone();
+    tubeH2.position.y = -1.1;
+    const tubeV1 = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 2.2, 16), materialGlassDark);
+    tubeV1.position.x = -1.6;
+    const tubeV2 = tubeV1.clone();
+    tubeV2.position.x = 1.6;
+
+    groupMatrix.add(tubeH1);
+    groupMatrix.add(tubeH2);
+    groupMatrix.add(tubeV1);
+    groupMatrix.add(tubeV2);
+
+    const matrixHub = new THREE.Mesh(new THREE.OctahedronGeometry(0.8), materialPurple);
+    groupMatrix.add(matrixHub);
+
+    scene.add(groupMatrix);
+
+    // ================= MODEL SWITCHING LOGIC =================
+    const modelData = {
+      'ai-core': {
+        group: groupAICore,
+        title: '3D AI Core',
+        desc: 'Central polyhedral computing nucleus surrounded by triple orbital gimbal rings and floating technology satellite modules (TypeScript, React, Node.js, PostgreSQL).',
+        stl: 'assets/models/ai-core.stl',
+        obj: 'assets/models/ai-core.obj'
+      },
+      'workspace': {
+        group: groupWorkspace,
+        title: '3D Developer Workspace',
+        desc: 'Futuristic workstation setup featuring a triple curved monitor array, mechanical keyboard console, and high-performance neural computing rig.',
+        stl: 'assets/models/developer-workspace.stl',
+        obj: 'assets/models/developer-workspace.obj'
+      },
+      'matrix': {
+        group: groupMatrix,
+        title: '3D Technology Matrix',
+        desc: '2x2 modular hardware architecture interconnecting Frontend, Backend, Tooling, and AI Autonomous Agent nodes via high-speed data bus conduits.',
+        stl: 'assets/models/tech-matrix.stl',
+        obj: 'assets/models/tech-matrix.obj'
+      }
+    };
+
+    let activeModelKey = 'ai-core';
+
+    function switchModel(key) {
+      activeModelKey = key;
+      Object.keys(modelData).forEach(k => {
+        modelData[k].group.visible = (k === key);
+      });
+
+      // Update UI Card
+      document.getElementById('card-title').innerText = modelData[key].title;
+      document.getElementById('card-desc').innerText = modelData[key].desc;
+      
+      const links = document.querySelectorAll('#details-card .hud-link');
+      if (links.length >= 3) {
+        links[1].href = modelData[key].stl;
+        links[2].href = modelData[key].obj;
+      }
+
+      // Update button active state
+      document.querySelectorAll('.model-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-model') === key);
+      });
+    }
+
+    document.querySelectorAll('.model-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        switchModel(btn.getAttribute('data-model'));
+      });
+    });
+
+    // Wireframe toggle
+    document.getElementById('btn-wireframe').addEventListener('click', (e) => {
+      isWireframe = !isWireframe;
+      materialCyan.wireframe = isWireframe;
+      materialPurple.wireframe = isWireframe;
+      materialGlassDark.wireframe = isWireframe;
+      e.currentTarget.classList.toggle('active', isWireframe);
+    });
+
+    // Auto-rotate toggle
+    document.getElementById('btn-autorotate').addEventListener('click', (e) => {
+      controls.autoRotate = !controls.autoRotate;
+      e.currentTarget.classList.toggle('active', controls.autoRotate);
+    });
+
+    // Reset Camera
+    document.getElementById('btn-reset').addEventListener('click', () => {
+      camera.position.set(0, 3, 9);
+      controls.target.set(0, 0, 0);
+      controls.update();
+    });
+
+    // ================= ANIMATION TICK RENDER LOOP =================
+    const clock = new THREE.Clock();
+
+    function animate() {
+      requestAnimationFrame(animate);
+      const delta = clock.getDelta();
+      const elapsed = clock.getElapsedTime();
+
+      // Animate AI Core components
+      if (groupAICore.visible) {
+        coreOcta1.rotation.y += 0.5 * delta;
+        coreOcta2.rotation.x -= 0.6 * delta;
+        coreOcta3.rotation.z += 0.8 * delta;
+
+        ring1.rotation.y += 0.4 * delta;
+        ring2.rotation.x += 0.5 * delta;
+        ring3.rotation.z -= 0.3 * delta;
+
+        // Bobbing floating satellites
+        satMeshes.forEach((sat, i) => {
+          sat.position.y += Math.sin(elapsed * 2 + i) * 0.003;
+          sat.rotation.y += 0.4 * delta;
+        });
+      }
+
+      // Animate Matrix Hub
+      if (groupMatrix.visible) {
+        matrixHub.rotation.y += 0.8 * delta;
+        matrixHub.rotation.x += 0.4 * delta;
+      }
+
+      // Slow particle drift
+      particles.rotation.y = elapsed * 0.03;
+
+      controls.update();
+      renderer.render(scene, camera);
+    }
+
+    animate();
+
+    // ================= RESPONSIVE RESIZE =================
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
+</body>
+</html>

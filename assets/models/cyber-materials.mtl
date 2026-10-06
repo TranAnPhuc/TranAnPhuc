@@ -1,0 +1,9 @@
+# Cyber Material Definitions for 3D AI Workspace
+newmtl CyberMaterial
+Ka 0.05 0.06 0.09
+Kd 0.08 0.71 0.83
+Ks 0.49 0.23 0.93
+Ke 0.02 0.20 0.25
+Ns 60.0
+d 1.0
+illum 2

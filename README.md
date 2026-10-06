@@ -17,6 +17,60 @@
 </p>
 
 <p align="center">
+  <a href="https://anphuctran2005.github.io/anphuctran2005/">
+    <img src="https://img.shields.io/badge/🎮_LAUNCH_LIVE_3D_WEBGL_WORKSPACE-Three.js_%7C_OrbitControls-7C3AED?style=for-the-badge&logo=three.js&logoColor=06B6D4" alt="Launch 3D WebGL Workspace" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
+</p>
+
+## 🎮 // 3D MODELS &amp; INTERACTIVE WORKSPACE
+
+> **Real 3D Geometric Meshes (.STL / .OBJ / WebGL)** — Click any model below to open GitHub's native interactive 3D viewer (pan, zoom, orbit in 3D).
+
+<table>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <a href="assets/models/ai-core.stl">
+        <img src="assets/models/ai-core-3d-rotating.webp" alt="3D AI Core (Actual 3D Mesh)" width="320" />
+      </a>
+      <br />
+      <strong>3D AI Core Nucleus</strong>
+      <br />
+      <sub>Crystalline core with orbital gimbal rings &amp; tech satellites</sub>
+      <br /><br />
+      <a href="assets/models/ai-core.stl">🎮 <strong>Open in GitHub 3D Viewer (.stl)</strong></a>
+      &nbsp;·&nbsp;
+      <a href="assets/models/ai-core.obj">📦 <strong>Source (.obj)</strong></a>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <a href="assets/models/developer-workspace.stl">
+        <img src="assets/models/developer-workspace-3d-rotating.webp" alt="3D Developer Workstation (Actual 3D Mesh)" width="320" />
+      </a>
+      <br />
+      <strong>3D Developer Workstation</strong>
+      <br />
+      <sub>Curved triple monitor rig, cyber console &amp; compute tower</sub>
+      <br /><br />
+      <a href="assets/models/developer-workspace.stl">🎮 <strong>Open in GitHub 3D Viewer (.stl)</strong></a>
+      &nbsp;·&nbsp;
+      <a href="assets/models/developer-workspace.obj">📦 <strong>Source (.obj)</strong></a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <small>
+    📦 <em>Additional 3D Models in repository:</em>
+    <a href="assets/models/tech-matrix.stl"><strong>[3D Tech Matrix .stl]</strong></a> ·
+    <a href="assets/models/tech-matrix.obj"><strong>[3D Tech Matrix .obj]</strong></a> ·
+    <a href="assets/models/cyber-materials.mtl"><strong>[Cyber Materials .mtl]</strong></a>
+  </small>
+</p>
+
+<p align="center">
   <img src="assets/readme/divider-3d.svg" alt="Divider" width="100%" />
 </p>
 
