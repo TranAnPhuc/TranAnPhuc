@@ -20,10 +20,6 @@
   <a href="https://www.facebook.com/anphuctran05">
     <img src="https://img.shields.io/badge/Facebook-anphuctran05-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
-  &nbsp;
-  <a href="https://anphuctran2005.github.io/anphuctran2005/">
-    <img src="https://img.shields.io/badge/Interactive_3D-WebGL_Workspace-7C3AED?style=flat-square&logo=three.js&logoColor=white" alt="3D Workspace" />
-  </a>
 </p>
 
 ---
@@ -119,18 +115,6 @@ Requirement Analysis ──► Domain Modeling ──► Implementation ──�
 2. **Type Safety Across Boundaries:** Strict typing (TypeScript &amp; C#) reduces runtime regressions and simplifies refactoring.
 3. **Database-First Integrity:** Business rules belong in thoughtful data constraints, transactions, and explicit domain boundaries.
 4. **Pragmatic Modern Tooling:** Leverage modern developer workflows (including AI tools for scaffolding, test generation, and regex/syntax acceleration) while maintaining 100% architectural comprehension and code ownership.
-
----
-
-### 🎮 Interactive 3D Assets
-
-For viewers interested in 3D graphics and WebGL, this repository includes interactive 3D models:
-
-- 📦 **Inspect in GitHub Native 3D Viewer:**
-  - [`assets/models/ai-core.stl`](assets/models/ai-core.stl) — Floating AI Core &amp; Orbital Gimbal Model
-  - [`assets/models/developer-workspace.stl`](assets/models/developer-workspace.stl) — 3D Developer Workstation Model
-  - [`assets/models/tech-matrix.stl`](assets/models/tech-matrix.stl) — 3D Modular Architecture Hub
-- 🌐 **Live WebGL Application:** [**Launch Interactive 3D Workspace**](https://anphuctran2005.github.io/anphuctran2005/) *(Three.js + OrbitControls)*
 
 ---
 
