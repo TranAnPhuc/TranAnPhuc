@@ -1,36 +1,20 @@
-<p align="center">
-  <img src="assets/readme/hero-banner.svg" alt="Tran An Phuc — Full-Stack Developer" width="100%" />
-</p>
+# Tran An Phuc
 
-<p align="center">
-  <a href="https://github.com/anphuctran2005">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&height=40&lines=Full-Stack+Developer;TypeScript+%2F+React+%2F+Next.js;Node.js+%2B+PostgreSQL;Enterprise+Backend+in+C%23+%2F+ASP.NET+Core" alt="Typing SVG" />
-  </a>
-</p>
+Full-Stack Developer — TypeScript, React, Next.js, Node.js, PostgreSQL. Enterprise backend experience in C# / ASP.NET Core.
 
-<p align="center">
-  <a href="mailto:anphuctran24@gmail.com"><img src="https://img.shields.io/badge/Email-anphuctran24%40gmail.com-06B6D4?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  &nbsp;
-  <a href="https://github.com/anphuctran2005"><img src="https://img.shields.io/badge/GitHub-anphuctran2005-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  &nbsp;
-  <a href="https://www.facebook.com/anphuctran05"><img src="https://img.shields.io/badge/Facebook-anphuctran05-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=anphuctran2005&style=flat-square&color=06B6D4&label=Profile+Views" alt="Profile Views" />
-</p>
+Email: [anphuctran24@gmail.com](mailto:anphuctran24@gmail.com) · GitHub: [anphuctran2005](https://github.com/anphuctran2005) · Facebook: [anphuctran05](https://www.facebook.com/anphuctran05)
 
 ---
 
-### 👨‍💻 About Me
+### About Me
 
-- 🔭 **Current Focus:** Building production-grade full-stack web applications with **TypeScript, React, Next.js, Node.js, and PostgreSQL**.
-- 💼 **Enterprise Background:** Software Developer at **Quang Viet Long An Company** — developed internal enterprise systems with **C#, ASP.NET Core, SQL Server, and Dapper**.
-- 🧠 **Engineering Mindset:** Strong advocate for **Clean Architecture, strict type safety, relational data integrity**, and contract-driven API design.
-- 🛠️ **Core Strengths:** Bridging real-world enterprise backend discipline (concurrency, transaction boundaries, indexing) with modern, high-velocity JavaScript/TypeScript workflows.
-- 📫 **Reach me:** [anphuctran24@gmail.com](mailto:anphuctran24@gmail.com)
+Building production-grade full-stack web applications with TypeScript, React, Next.js, Node.js, and PostgreSQL. Software Developer at Quang Viet Long An Company, where I developed internal enterprise systems with C#, ASP.NET Core, SQL Server, and Dapper.
+
+Focused on Clean Architecture, strict type safety, relational data integrity, and contract-driven API design — applying enterprise backend discipline (concurrency, transaction boundaries, indexing) to modern JavaScript/TypeScript workflows.
 
 ---
 
-### 💼 Enterprise Experience &amp; Professional Background
+### Enterprise Experience &amp; Professional Background
 
 #### **Software Developer · Enterprise Internal Systems**  
 *Quang Viet Long An Company*
@@ -46,7 +30,7 @@
 
 ---
 
-### 🛠️ Tech Stack &amp; Tools
+### Tech Stack &amp; Tools
 
 <p align="left">
   <strong>Frontend:</strong><br />
@@ -88,7 +72,7 @@
 
 ---
 
-### 🚀 Featured Projects
+### Featured Projects
 
 | Project | Description | Tech Stack | Source Code |
 | :--- | :--- | :--- | :---: |
@@ -100,7 +84,7 @@
 
 ---
 
-### 💡 Engineering Principles
+### Engineering Principles
 
 ```
 Requirement Analysis ──► Domain Modeling ──► Implementation ──► Automated Testing ──► Code Review ──► Delivery
@@ -113,7 +97,7 @@ Requirement Analysis ──► Domain Modeling ──► Implementation ──�
 
 ---
 
-### 📈 GitHub Statistics &amp; Activity
+### GitHub Statistics &amp; Activity
 
 <div align="center">
   <a href="https://github.com/anphuctran2005">
@@ -133,14 +117,6 @@ Requirement Analysis ──► Domain Modeling ──► Implementation ──�
   </a>
 </div>
 
-<div align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=anphuctran2005&theme=dark&background=08090D&border=7C3AED40&ring=06B6D4&fire=06B6D4&currStreakLabel=06B6D4"
-    alt="GitHub Streak"
-    height="165"
-  />
-</div>
-
 <br />
 
 <div align="center">
@@ -153,22 +129,4 @@ Requirement Analysis ──► Domain Modeling ──► Implementation ──�
 
 ---
 
-### 📫 Get in Touch
-
-<p align="center">
-  <a href="mailto:anphuctran24@gmail.com">
-    <img src="https://img.shields.io/badge/Email-anphuctran24%40gmail.com-06B6D4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/anphuctran2005">
-    <img src="https://img.shields.io/badge/GitHub-anphuctran2005-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.facebook.com/anphuctran05">
-    <img src="https://img.shields.io/badge/Facebook-anphuctran05-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-</p>
-
-<p align="center">
-  <sub>Designed &amp; Maintained by <strong>Tran An Phuc</strong> · 2026</sub>
-</p>
+Contact: [anphuctran24@gmail.com](mailto:anphuctran24@gmail.com) · [GitHub](https://github.com/anphuctran2005) · [Facebook](https://www.facebook.com/anphuctran05)
